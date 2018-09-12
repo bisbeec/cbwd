@@ -76,66 +76,89 @@ if($_POST["submit"]) {
 			<div class="content width-wrap">
 				<h1>Recent Work</h1>
 				<div class="grid">
-					<div class="grid-block">
-						<img src="assets/images/screenshots/nahant-swim.jpg" alt="Nahant SWIM">
-						<div class="overlay">
-							<div>
-								<h3>Nahant S.W.I.M.</h3>
-								<p>Environmental Conservation</p>
-							</div>
-							<a href="https://nahantswim.org/" target="_blank">Visit the Site</a>
-						</div>
-					</div>
-					<div class="grid-block">
-						<img src="assets/images/screenshots/vtparks.jpg" alt="Vermont State Parks">
-						<div class="overlay">
-							<div>
-								<h3>Vermont State Parks</h3>
-								<p>Travel & Tourism</p>
-							</div>
-							<a href="https://vtstateparks.com/" target="_blank">Visit the Site</a>
-						</div>
-					</div>
-					<div class="grid-block">
-						<img src="assets/images/screenshots/bernstein.jpg" alt="Steven Bernstein Therapy">
-						<div class="overlay">
-							<div>
-								<h3>Steven Bernstein</h3>
-								<p>Couples & Individual Therapy</p>
-							</div>
-							<a href="http://www.stevenbernsteintherapy.com/" target="_blank">Visit the Site</a>
-						</div>
-					</div>
-					<div class="grid-block">
-						<img src="assets/images/screenshots/agatewood.jpg" alt="Agatewood">
-						<div class="overlay">
-							<div>
-								<h3>Agatewood Sustainability Strategies</h3>
-								<p>Environmental Consulting</p>
-							</div>
-							<a href="http://agatewoodconsulting.com/" target="_blank">Visit the Site</a>
-						</div>
-					</div>
-					<div class="grid-block">
-						<img src="assets/images/screenshots/whalers.jpg" alt="North Haven Whaler Rentals">
-						<div class="overlay">
-							<div>
-								<h3>North Haven Whaler Rentals</h3>
-								<p>Boat Rentals</p>
-							</div>
-							<a href="http://www.northhavenwhalers.com/" target="_blank">Visit the Site</a>
-						</div>
-					</div>
-					<div class="grid-block">
-						<img src="assets/images/screenshots/billysims.jpg" alt="Billy Sims China Food Group">
-						<div class="overlay">
-							<div>
-								<h3>Billy Sims China Food Group</h3>
-								<p>Food Exporting</p>
-							</div>
-							<a href="http://www.chinafoodhub.com/" target="_blank">Visit the Site</a>
-						</div>
-					</div>
+
+
+
+
+					<figure>
+						<img src="assets/images/screenshots/nahant-swim.jpg" alt="Nahant S.W.I.M."/>
+						<figcaption>
+							<h2>Nahant S.W.I.M. <span>Environmental Conservation</span></h2>
+							<p>Simplified responsive template accentuates client business goals and needs.
+								<a href="#">Visit the Site 
+									<i class="fa fa-angle-right" aria-hidden="true"></i>
+									<i class="fa fa-angle-right" aria-hidden="true"></i>
+								</a>
+							</p>
+						</figcaption>			
+					</figure>
+
+					<figure>
+						<img src="assets/images/screenshots/vtparks.jpg" alt="Vermont State Parks"/>
+						<figcaption>
+							<h2>Vermont State Parks <span>Travel & Tourism</span></h2>
+							<p>Effective, efficient app prioritizes user experience.
+								<a href="#">Visit the Site 
+									<i class="fa fa-angle-right" aria-hidden="true"></i>
+									<i class="fa fa-angle-right" aria-hidden="true"></i>
+								</a>
+							</p>
+						</figcaption>			
+					</figure>
+
+					<figure>
+						<img src="assets/images/screenshots/bernstein.jpg" alt="Steven Bernstein"/>
+						<figcaption>
+							<h2>Steven Bernstein <span>Couples & Individual Therapy</span></h2>
+							<p>A simple Wordpress theme re-imagined.
+								<a href="#">Visit the Site 
+									<i class="fa fa-angle-right" aria-hidden="true"></i>
+									<i class="fa fa-angle-right" aria-hidden="true"></i>
+								</a>
+							</p>
+						</figcaption>			
+					</figure>
+
+					<figure>
+						<img src="assets/images/screenshots/agatewood.jpg" alt="Agatewood"/>
+						<figcaption>
+							<h2>Agatewood Consulting <span>Environmental Sustainability</span></h2>
+							<p>Taking a clunky, desktop website forward into the present.
+								<a href="#">Visit the Site 
+									<i class="fa fa-angle-right" aria-hidden="true"></i>
+									<i class="fa fa-angle-right" aria-hidden="true"></i>
+								</a>
+							</p>
+						</figcaption>			
+					</figure>
+
+					<figure>
+						<img src="assets/images/screenshots/whalers.jpg" alt="North Haven Whalers"/>
+						<figcaption>
+							<h2>North Haven Whaler Rentals <span>Boat Rentals</span></h2>
+							<p>Squarespace and e-commerce merge to create a quaint, easy user-interface.
+								<a href="#">Visit the Site 
+									<i class="fa fa-angle-right" aria-hidden="true"></i>
+									<i class="fa fa-angle-right" aria-hidden="true"></i>
+								</a>
+							</p>
+						</figcaption>			
+					</figure>
+
+					<figure>
+						<img src="assets/images/screenshots/billysims.jpg" alt="Billy Sims China Food Group"/>
+						<figcaption>
+							<h2>Billy Sims China Food Group <span>Food Exporting</span></h2>
+							<p>Former Heisman winner Sims' startup gets a boost with this WP site.
+								<a href="#">Visit the Site 
+									<i class="fa fa-angle-right" aria-hidden="true"></i>
+									<i class="fa fa-angle-right" aria-hidden="true"></i>
+								</a>
+							</p>
+						</figcaption>			
+					</figure>
+					
+
 
 				</div>
 			</div>
