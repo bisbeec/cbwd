@@ -23,7 +23,7 @@ body {
 	}
 }
 
-/* message thank you message */
+/* thank you message */
 h6 {
 	color: steelblue;
     font-size: 18px;
@@ -86,8 +86,8 @@ h6 {
     				width: 0;
     				height: 2px;
     				background: $blueOne;
-    				-webkit-transition: .2s;
-    				transition: width .2s;
+    				-webkit-transition: .3s;
+    				transition: width .3s;
     				position: relative;
     				bottom: 45px;
 				}
@@ -409,7 +409,7 @@ h6 {
     	}
     	&:hover {
     		img {
-    			opacity: 0.18;
+    			opacity: 0.1;
 				-webkit-transform: translate3d(0,0,0) scale(1);
 				transform: translate3d(0,0,0) scale(1);
     		}
