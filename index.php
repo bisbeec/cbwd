@@ -83,78 +83,54 @@ if($_POST["submit"]) {
 					<figure>
 						<img src="assets/images/screenshots/nahant-swim.jpg" alt="Nahant S.W.I.M."/>
 						<figcaption>
-							<h2>Nahant S.W.I.M. <span>Environmental Conservation</span></h2>
-							<p>Simplified responsive template accentuates client business goals and needs.
-								<a href="#">Visit the Site 
-									<i class="fa fa-angle-right" aria-hidden="true"></i>
-									<i class="fa fa-angle-right" aria-hidden="true"></i>
-								</a>
-							</p>
+							<h2>Nahant <span>S.W.I.M.</span></h2>
+							<p>Environmental Conservation</p>
+							<a href="#">View More</a>
 						</figcaption>			
 					</figure>
 
 					<figure>
 						<img src="assets/images/screenshots/vtparks.jpg" alt="Vermont State Parks"/>
 						<figcaption>
-							<h2>Vermont State Parks <span>Travel & Tourism</span></h2>
-							<p>Effective, efficient app prioritizes user experience.
-								<a href="#">Visit the Site 
-									<i class="fa fa-angle-right" aria-hidden="true"></i>
-									<i class="fa fa-angle-right" aria-hidden="true"></i>
-								</a>
-							</p>
+							<h2>Vermont <span>State Parks</span></h2>
+							<p>Travel & Tourism</p>
+							<a href="#">View More</a>
 						</figcaption>			
 					</figure>
 
 					<figure>
 						<img src="assets/images/screenshots/bernstein.jpg" alt="Steven Bernstein"/>
 						<figcaption>
-							<h2>Steven Bernstein <span>Couples & Individual Therapy</span></h2>
-							<p>A simple Wordpress theme re-imagined.
-								<a href="#">Visit the Site 
-									<i class="fa fa-angle-right" aria-hidden="true"></i>
-									<i class="fa fa-angle-right" aria-hidden="true"></i>
-								</a>
-							</p>
+							<h2>Steven Bernstein</h2>
+							<p>Couples & Individual Therapy</p>
+							<a href="#">View More</a>
 						</figcaption>			
 					</figure>
 
 					<figure>
 						<img src="assets/images/screenshots/agatewood.jpg" alt="Agatewood"/>
 						<figcaption>
-							<h2>Agatewood Consulting <span>Environmental Sustainability</span></h2>
-							<p>Taking a clunky, desktop website forward into the present.
-								<a href="#">Visit the Site 
-									<i class="fa fa-angle-right" aria-hidden="true"></i>
-									<i class="fa fa-angle-right" aria-hidden="true"></i>
-								</a>
-							</p>
+							<h2>Agatewood <span>Consulting</span></h2>
+							<p>Environmental Sustainability</p>
+							<a href="#">View More</a>
 						</figcaption>			
 					</figure>
 
 					<figure>
 						<img src="assets/images/screenshots/whalers.jpg" alt="North Haven Whalers"/>
 						<figcaption>
-							<h2>North Haven Whaler Rentals <span>Boat Rentals</span></h2>
-							<p>Squarespace and e-commerce merge to create a quaint, easy user-interface.
-								<a href="#">Visit the Site 
-									<i class="fa fa-angle-right" aria-hidden="true"></i>
-									<i class="fa fa-angle-right" aria-hidden="true"></i>
-								</a>
-							</p>
+							<h2>North Haven <span>Whaler Rentals</span></h2>
+							<p>Boat Rentals</p>
+							<a href="#">View More</a>
 						</figcaption>			
 					</figure>
 
 					<figure>
 						<img src="assets/images/screenshots/billysims.jpg" alt="Billy Sims China Food Group"/>
 						<figcaption>
-							<h2>Billy Sims China Food Group <span>Food Exporting</span></h2>
-							<p>Former Heisman winner Sims' startup gets a boost with this WP site.
-								<a href="#">Visit the Site 
-									<i class="fa fa-angle-right" aria-hidden="true"></i>
-									<i class="fa fa-angle-right" aria-hidden="true"></i>
-								</a>
-							</p>
+							<h2>Billy Sims <span>China Food Group</span></h2>
+							<p>Food Exporting</p>
+							<a href="#">View More</a>
 						</figcaption>			
 					</figure>
 					

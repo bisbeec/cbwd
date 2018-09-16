@@ -154,7 +154,8 @@ h6 {
   .section.work {
     background-color: #ddd; }
   .section.testimonials {
-    background-color: #3f9ce3; }
+    background-color: #3f9ce3;
+    clear: both; }
     .section.testimonials .testi-sec {
       margin-bottom: 30px; }
       .section.testimonials .testi-sec .quote {
@@ -224,125 +225,89 @@ h6 {
       margin-bottom: 20px; }
 
 .grid {
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin: 0 -15px; }
+  max-width: 1000px;
+  margin: 0 auto; }
   .grid figure {
-    width: 47%;
-    margin: 0 1.5% 20px;
     position: relative;
+    float: left;
     overflow: hidden;
-    background: #1B75BB; }
+    margin: 10px 1%;
+    min-width: 320px;
+    max-width: 480px;
+    max-height: 360px;
+    width: 48%;
+    height: auto;
+    background: #3085a3;
+    text-align: center;
+    cursor: pointer;
+    background: #3f9ce3;
+    /*****/ }
     .grid figure img {
       position: relative;
       display: block;
       min-height: 100%;
-      max-width: none;
-      width: -webkit-calc(100% + 60px);
-      width: calc(100% + 60px);
-      opacity: 1;
-      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-      transition: opacity 0.35s, transform 0.35s;
-      -webkit-transform: translate3d(-30px, 0, 0) scale(1.12);
-      transform: translate3d(-30px, 0, 0) scale(1.12);
-      -webkit-backface-visibility: hidden;
-      backface-visibility: hidden; }
-    .grid figure h2 {
-      position: absolute;
-      right: 0;
-      bottom: 0;
-      padding: 1em 1.2em .5em;
-      margin: 0;
-      opacity: 0;
-      -webkit-transition: .3s;
-      transition: .3s; }
-      .grid figure h2 span {
-        display: block;
-        text-align: right;
-        text-transform: none;
-        font-size: .5em; }
-    .grid figure p {
-      padding: 0 10px 0 0;
-      width: 50%;
-      border-right: 1px solid #fff;
-      text-align: right;
-      opacity: 0;
-      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-      transition: opacity 0.35s, transform 0.35s;
-      -webkit-transform: translate3d(-40px, 0, 0);
-      transform: translate3d(-40px, 0, 0);
-      text-transform: none; }
+      max-width: 100%;
+      opacity: 0.8; }
     .grid figure figcaption {
       padding: 2em;
       color: #fff;
       text-transform: uppercase;
       font-size: 1.25em;
       -webkit-backface-visibility: hidden;
-      backface-visibility: hidden;
+      backface-visibility: hidden; }
+    .grid figure figcaption::before, .grid figure figcaption::after {
+      pointer-events: none; }
+    .grid figure figcaption, .grid figure figcaption > a {
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%; }
-      .grid figure figcaption a {
-        font-size: .9em;
-        display: inline-block;
-        margin-top: 20px;
-        padding: 5px;
-        border: 1px solid #fff;
-        font-style: italic;
-        color: #fff;
-        position: relative;
-        -webkit-transform: translateZ(0);
-        transform: translateZ(0);
-        box-shadow: 0 0 1px transparent;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
-        -moz-osx-font-smoothing: grayscale;
-        -webkit-transition-property: color;
-        transition-property: color;
-        -webkit-transition-duration: 0.3s;
-        transition-duration: 0.3s;
-        opacity: 0;
-        margin-left: 25%; }
-        .grid figure figcaption a:before {
-          content: "";
-          position: absolute;
-          z-index: -1;
-          top: 0;
-          left: 0;
-          right: 0;
-          bottom: 0;
-          background: #3f9ce3;
-          -webkit-transform: scaleX(0);
-          transform: scaleX(0);
-          -webkit-transform-origin: 0 50%;
-          transform-origin: 0 50%;
-          -webkit-transition-property: transform;
-          transition-property: transform;
-          -webkit-transition-duration: 0.3s;
-          transition-duration: 0.3s;
-          -webkit-transition-timing-function: ease-out;
-          transition-timing-function: ease-out; }
-        .grid figure figcaption a:hover, .grid figure figcaption a:focus, .grid figure figcaption a:active {
-          color: #fff; }
-        .grid figure figcaption a:hover:before, .grid figure figcaption a a:focus:before, .grid figure figcaption a a:active:before {
-          -webkit-transform: scaleX(1);
-          transform: scaleX(1); }
-        .grid figure figcaption a:hover, .grid figure figcaption a:focus {
-          opacity: 1; }
+    .grid figure figcaption > a {
+      z-index: 1000;
+      text-indent: 200%;
+      white-space: nowrap;
+      font-size: 0;
+      opacity: 0; }
+    .grid figure h2 {
+      word-spacing: -0.15em;
+      font-weight: 300; }
+      .grid figure h2 span {
+        font-weight: 800; }
+    .grid figure h2, .grid figure p {
+      margin: 0; }
+    .grid figure p {
+      letter-spacing: 1px;
+      font-size: 68.5%; }
+    .grid figure img, .grid figure h2 {
+      -webkit-transition: -webkit-transform 0.35s;
+      transition: transform 0.35s; }
+    .grid figure img {
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden; }
+    .grid figure h2, .grid figure p {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      padding: 30px; }
+    .grid figure p {
+      text-transform: none;
+      font-size: 90%;
+      opacity: 0;
+      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+      transition: opacity 0.35s, transform 0.35s;
+      -webkit-transform: translate3d(0, 50px, 0);
+      transform: translate3d(0, 50px, 0); }
     .grid figure:hover img {
-      opacity: 0.18;
-      -webkit-transform: translate3d(0, 0, 0) scale(1);
-      transform: translate3d(0, 0, 0) scale(1); }
+      -webkit-transform: translate3d(0, -80px, 0);
+      transform: translate3d(0, -80px, 0); }
+    .grid figure:hover h2 {
+      -webkit-transform: translate3d(0, -100px, 0);
+      transform: translate3d(0, -100px, 0); }
     .grid figure:hover p {
       opacity: 1;
       -webkit-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); }
-    .grid figure:hover h2, .grid figure:hover figcaption a {
-      opacity: 1; }
 
 footer {
   text-align: center;
