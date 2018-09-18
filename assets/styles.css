@@ -47,6 +47,7 @@ h6 {
     #header .logo span {
       float: left;
       color: #1B75BB;
+      color: red;
       font-size: 28px;
       margin-top: 20px;
       margin-left: 15px; }
