@@ -253,18 +253,12 @@ h6 {
       position: absolute;
       right: 0;
       bottom: 0;
-      padding: 1em 1.2em .5em;
+      padding: .5em;
       margin: 0;
-      opacity: 0;
-      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-      transition: opacity 0.35s, transform 0.35s;
-      -webkit-transform: translate3d(40px, 0, 0);
-      transform: translate3d(40px, 0, 0); }
-      .grid figure h2 span {
-        display: block;
-        text-align: right;
-        text-transform: none;
-        font-size: .5em; }
+      font-size: 20px;
+      background: rgba(27, 117, 187, 0.85);
+      -webkit-transition: .3s;
+      transition: .3s; }
     .grid figure p {
       padding: 0 10px 0 0;
       width: 50%;
@@ -339,7 +333,7 @@ h6 {
       opacity: 0.1;
       -webkit-transform: translate3d(-30px, 0, 0) scale(1.12);
       transform: translate3d(-30px, 0, 0) scale(1.12); }
-    .grid figure:hover p, .grid figure:hover h2, .grid figure:hover figcaption a {
+    .grid figure:hover p, .grid figure:hover figcaption a {
       opacity: 1;
       -webkit-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); }
@@ -382,10 +376,7 @@ footer {
     .grid figure p a {
       display: block;
       margin-left: 0;
-      width: 138px; }
-
-  .grid figure h2 {
-    font-size: 1.3em; } }
+      width: 138px; } }
 @media screen and (max-width: 920px) {
   #header #hamburger {
     display: block; }
@@ -408,14 +399,7 @@ footer {
           bottom: 25px;
           background-color: #fff; }
     #header #nav.nav-show {
-      right: 0; }
-
-  .grid figure h2 {
-    font-size: 1em; }
-
-  .grid figure figcaption {
-    padding: 1.5em;
-    font-size: 1.15em; } }
+      right: 0; } }
 @media screen and (max-width: 767px) {
   #header .logo span {
     display: none; }

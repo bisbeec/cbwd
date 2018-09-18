@@ -83,7 +83,7 @@ if($_POST["submit"]) {
 					<figure>
 						<img src="assets/images/screenshots/nahant-swim.jpg" alt="Nahant S.W.I.M."/>
 						<figcaption>
-							<h2>Nahant S.W.I.M. <span>Environmental Conservation</span></h2>
+							<h2>Nahant S.W.I.M.</h2>
 							<p>Simple responsive template accentuates client business goals and needs.
 								<a href="https://nahantswim.org" target="_blank">Visit the Site 
 									<i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -96,7 +96,7 @@ if($_POST["submit"]) {
 					<figure>
 						<img src="assets/images/screenshots/vtparks.jpg" alt="Vermont State Parks"/>
 						<figcaption>
-							<h2>Vermont State Parks <span>Travel & Tourism</span></h2>
+							<h2>Vermont State Parks</h2>
 							<p>Effective, efficient app prioritizes user experience.
 								<a href="http://vtstateparks.com" target="_blank">Visit the Site 
 									<i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -109,7 +109,7 @@ if($_POST["submit"]) {
 					<figure>
 						<img src="assets/images/screenshots/bernstein.jpg" alt="Steven Bernstein"/>
 						<figcaption>
-							<h2>Steven Bernstein <span>Couples & Individual Therapy</span></h2>
+							<h2>Steven Bernstein Therapy</h2>
 							<p>A simple Wordpress theme re-imagined and re-built.
 								<a href="http://stevenbernsteintherapy.com" target="_blank">Visit the Site 
 									<i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -122,7 +122,7 @@ if($_POST["submit"]) {
 					<figure>
 						<img src="assets/images/screenshots/agatewood.jpg" alt="Agatewood"/>
 						<figcaption>
-							<h2>Agatewood Consulting <span>Environmental Sustainability</span></h2>
+							<h2>Agatewood Consulting</h2>
 							<p>Taking a formerly clunky, unresponsive website forward into web 2.0.
 								<a href="http://agatewoodconsulting.com" target="_blank">Visit the Site 
 									<i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -135,7 +135,7 @@ if($_POST["submit"]) {
 					<figure>
 						<img src="assets/images/screenshots/whalers.jpg" alt="North Haven Whalers"/>
 						<figcaption>
-							<h2>North Haven Whaler Rentals <span>Boat Rentals</span></h2>
+							<h2>North Haven Whaler Rentals</h2>
 							<p>A stripped-down Squarespace theme tailored to client wishes and needs.
 								<a href="https://northhavenwhalers.com" target="_blank">Visit the Site 
 									<i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -148,7 +148,7 @@ if($_POST["submit"]) {
 					<figure>
 						<img src="assets/images/screenshots/billysims.jpg" alt="Billy Sims China Food Group"/>
 						<figcaption>
-							<h2>Billy Sims China Food Group <span>Food Exporting</span></h2>
+							<h2>Billy Sims China Food Group</h2>
 							<p>Former Heisman winner Sims' startup gets a boost with this WP site.
 								<a href="http://chinafoodhub.com" target="_blank">Visit the Site 
 									<i class="fa fa-angle-right" aria-hidden="true"></i>
