@@ -59,7 +59,6 @@ h6 {
 		span {
 			float: left;
 			color: $blueOne;
-			color: red;
 			font-size: 28px;
 			margin-top: 20px;
 			margin-left: 15px;
@@ -302,13 +301,17 @@ h6 {
 		    display: block;
 		    min-height: 100%;
 		    max-width: none;
+		    
 			width: -webkit-calc(100% + 60px);
 			width: calc(100% + 60px);
+
 			opacity: 1;
 			-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 			transition: opacity 0.35s, transform 0.35s;
-			-webkit-transform: translate3d(-30px,0,0) scale(1.12);
-			transform: translate3d(-30px,0,0) scale(1.12);
+
+			-webkit-transform: translate3d(0,0,0) scale(1);
+			transform: translate3d(0,0,0) scale(1);			
+
 			-webkit-backface-visibility: hidden;
 			backface-visibility: hidden;
     	}
@@ -411,8 +414,10 @@ h6 {
     	&:hover {
     		img {
     			opacity: 0.1;
-				-webkit-transform: translate3d(0,0,0) scale(1);
-				transform: translate3d(0,0,0) scale(1);
+				
+
+				-webkit-transform: translate3d(-30px,0,0) scale(1.12);
+				transform: translate3d(-30px,0,0) scale(1.12);
     		}
     		p {
     			opacity: 1;
@@ -540,14 +545,19 @@ footer {
 		width: auto;
 	}
 
-	.grid {
+	
+	.grid, #recent-work-heading {
 		display: block;
-		margin: 0;
+		margin: 0 auto;
+		width: 80%;
 		figure {
 			width: 100%;
 			margin: 0;
 			margin-bottom: 30px;
 		}
+	}
+	#recent-work-heading {
+		margin: 0 auto 20px;
 	}
 
 	footer .width-wrap {
@@ -560,6 +570,10 @@ footer {
 		float: none !important;
 		text-align: center;
 		margin-bottom: 15px;
+	}
+
+	.grid, #recent-work-heading {
+		width: 100%;
 	}
 
 	.grid figure figcaption {

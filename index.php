@@ -74,7 +74,7 @@ if($_POST["submit"]) {
 		</section>
 		<section class="section work" id="portfolio">
 			<div class="content width-wrap">
-				<h1>Recent Work</h1>
+				<h1 id="recent-work-heading">Recent Work</h1>
 				<div class="grid">
 
 

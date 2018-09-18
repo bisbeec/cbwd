@@ -47,7 +47,6 @@ h6 {
     #header .logo span {
       float: left;
       color: #1B75BB;
-      color: red;
       font-size: 28px;
       margin-top: 20px;
       margin-left: 15px; }
@@ -246,8 +245,8 @@ h6 {
       opacity: 1;
       -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
       transition: opacity 0.35s, transform 0.35s;
-      -webkit-transform: translate3d(-30px, 0, 0) scale(1.12);
-      transform: translate3d(-30px, 0, 0) scale(1.12);
+      -webkit-transform: translate3d(0, 0, 0) scale(1);
+      transform: translate3d(0, 0, 0) scale(1);
       -webkit-backface-visibility: hidden;
       backface-visibility: hidden; }
     .grid figure h2 {
@@ -336,8 +335,8 @@ h6 {
           opacity: 1; }
     .grid figure:hover img {
       opacity: 0.1;
-      -webkit-transform: translate3d(0, 0, 0) scale(1);
-      transform: translate3d(0, 0, 0) scale(1); }
+      -webkit-transform: translate3d(-30px, 0, 0) scale(1.12);
+      transform: translate3d(-30px, 0, 0) scale(1.12); }
     .grid figure:hover p {
       opacity: 1;
       -webkit-transform: translate3d(0, 0, 0);
@@ -430,13 +429,17 @@ footer {
   .section.contact .contact-row {
     width: auto; }
 
-  .grid {
+  .grid, #recent-work-heading {
     display: block;
-    margin: 0; }
-    .grid figure {
+    margin: 0 auto;
+    width: 80%; }
+    .grid figure, #recent-work-heading figure {
       width: 100%;
       margin: 0;
       margin-bottom: 30px; }
+
+  #recent-work-heading {
+    margin: 0 auto 20px; }
 
   footer .width-wrap {
     max-width: 500px; } }
@@ -445,6 +448,9 @@ footer {
     float: none !important;
     text-align: center;
     margin-bottom: 15px; }
+
+  .grid, #recent-work-heading {
+    width: 100%; }
 
   .grid figure figcaption {
     padding: 1em; }
