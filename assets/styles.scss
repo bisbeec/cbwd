@@ -566,6 +566,7 @@ footer {
 
 	.grid figure figcaption {
 		padding: 1em;
+		font-size: 1.10em;
 	}
 
 	.grid figure h2 {
@@ -574,5 +575,11 @@ footer {
 	
 	footer {
 		padding-top: 0;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.grid figure p {
+		font-size: .9em;
 	}
 }
