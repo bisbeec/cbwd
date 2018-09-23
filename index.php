@@ -39,20 +39,20 @@ if($_POST["submit"]) {
 <body>
 	<header id="header">
 		<div class="width-wrap">
-			<a href="#intro" class="logo">
+			<a href="#intro" class="logo scroll-link">
 				<img src="assets/images/logo-small.png" alt="Logo">
 				<span>Charlie Bisbee Web Development</span>
 				<span class="cbwd">CBWD</span>
 			</a>
 			<ul id="nav">
 				<li>
-					<a href="#portfolio">My Portfolio</a>
+					<a href="#portfolio" class="scroll-link">My Portfolio</a>
 				</li>
 				<li>
-					<a href="#testimonials">Testimonials</a>
+					<a href="#testimonials" class="scroll-link">Testimonials</a>
 				</li>
 				<li>
-					<a href="#contact">Contact</a>
+					<a href="#contact" class="scroll-link">Contact</a>
 				</li>
 			</ul>
 			<div id="hamburger">
@@ -67,8 +67,8 @@ if($_POST["submit"]) {
 			<div class="content width-wrap">
 				<img id="my-img" src="assets/images/me-square.jpg" alt="Charlie">
 				<h1>Hi, I'm Charlie.</h1>
-				<p>I'm a front end developer specializing in user-friendly experiences with simple layouts. A self-taught programmer, I code with HTML5 and CSS (Sass) to create beautiful, interactive and fully responsive websites. Feel free to check out <a href="#portfolio">my portfolio</a> of screenshots. You can also view my code at <a href="https://github.com/bisbeec" target="_blank">github.com/bisbeec</a>. Fun pens can be found <a href="https://codepen.io/cbisbee/" target="_blank">here</a>.</p>
-				<p>Whether you're an employer, a recruiter, a co-founder, or a fellow developer, <a href="#contact">contact me</a> to discuss collaborating on a project.</p>
+				<p>I'm a front end developer specializing in user-friendly experiences with simple layouts. A self-taught programmer, I code with HTML5 and CSS (Sass) to create beautiful, interactive and fully responsive websites. Feel free to check out <a href="#portfolio" class="scroll-link">my portfolio</a> of screenshots. You can also view my code at <a href="https://github.com/bisbeec" target="_blank">github.com/bisbeec</a>. Fun pens can be found <a href="https://codepen.io/cbisbee/" target="_blank">here</a>.</p>
+				<p>Whether you're an employer, a recruiter, a co-founder, or a fellow developer, <a href="#contact" class="scroll-link">contact me</a> to discuss collaborating on a project.</p>
 			</div>
 			<div class="overlay"></div>
 		</section>
@@ -196,8 +196,11 @@ if($_POST["submit"]) {
 			</div>
 		</footer>
 	</main>
+	
+	<!--OVERLAY CAROUSEL-->
 	<div id="overlay-full"></div>
 	<div class="carousel-showcase carousel slide" id="myCarousel" data-interval="false">
+		<span class="faux-x">X</span>
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="customCarouselIndicator active"></li>
             <li data-target="#myCarousel" data-slide-to="1" class="customCarouselIndicator"></li>
@@ -256,14 +259,14 @@ if($_POST["submit"]) {
                 </div>
             </div>
         </div>
-    	<span class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    	<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
-        </span>
-        <span class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
-        </span>
+        </a>
     </div>
 </body>
 </html>
