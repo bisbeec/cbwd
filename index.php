@@ -26,11 +26,11 @@ if($_POST["submit"]) {
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet">
 	<link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
-	<!--<link rel="stylesheet" href="assets/bootstrap-3.3.7-dist/css/bootstrap.min.css">-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/styles.css">
 	<script type="text/javascript" src="assets/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="assets/custom.js"></script>
-	<script type="text/javascript" src="assets/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<title>CBWD</title>
 	<link rel="icon" 
       type="image/png" 
@@ -80,86 +80,59 @@ if($_POST["submit"]) {
 
 
 
-					<figure>
+					<figure id="nahant-swim">
 						<img src="assets/images/screenshots/nahant-swim.jpg" alt="Nahant S.W.I.M."/>
 						<figcaption>
 							<h2>Nahant S.W.I.M.</h2>
-							<p>Simple, responsive template accentuates Mass. environmental organization's goals and needs.
-								<a href="https://nahantswim.org" target="_blank">Visit the Site 
-									<i class="fa fa-angle-right" aria-hidden="true"></i>
-									<i class="fa fa-angle-right" aria-hidden="true"></i>
-								</a>
-							</p>
+							<p>Environmental Conservation</p>
+							<span class="plus">+</span>
 						</figcaption>			
 					</figure>
 
-					<figure>
+					<figure id="vtparks">
 						<img src="assets/images/screenshots/vtparks.jpg" alt="Vermont State Parks"/>
 						<figcaption>
 							<h2>Vermont State Parks</h2>
-							<p>Effective, efficient app prioritizes user experience while highlighting state park attractions.
-								<a href="http://vtstateparks.com" target="_blank">Visit the Site 
-									<i class="fa fa-angle-right" aria-hidden="true"></i>
-									<i class="fa fa-angle-right" aria-hidden="true"></i>
-								</a>
-							</p>
+							<p>Travel & Tourism</p>
+							<span class="plus">+</span>
 						</figcaption>			
 					</figure>
 
-					<figure>
+					<figure id="bernstein">
 						<img src="assets/images/screenshots/bernstein.jpg" alt="Steven Bernstein"/>
 						<figcaption>
-							<h2>Steven Bernstein Therapy</h2>
-							<p>A base Wordpress theme re-imagined and re-built emphasizing client services offered.
-								<a href="http://stevenbernsteintherapy.com" target="_blank">Visit the Site 
-									<i class="fa fa-angle-right" aria-hidden="true"></i>
-									<i class="fa fa-angle-right" aria-hidden="true"></i>
-								</a>
-							</p>
+							<h2>Steven Bernstein</h2>
+							<p>Couples & Individual's Therapy</p>
+							<span class="plus">+</span>
 						</figcaption>			
 					</figure>
 
-					<figure>
+					<figure id="agatewood">
 						<img src="assets/images/screenshots/agatewood.jpg" alt="Agatewood"/>
 						<figcaption>
-							<h2>Agatewood Consulting</h2>
-							<p>Environmental strategies and consultation services portrayed beautifully through a modified Wordpress theme.
-								<a href="http://agatewoodconsulting.com" target="_blank">Visit the Site 
-									<i class="fa fa-angle-right" aria-hidden="true"></i>
-									<i class="fa fa-angle-right" aria-hidden="true"></i>
-								</a>
-							</p>
+							<h2>Agatewood Strategies</h2>
+							<p>Environmental Consultation</p>
+							<span class="plus">+</span>
 						</figcaption>			
 					</figure>
 
-					<figure>
+					<figure id="whalers">
 						<img src="assets/images/screenshots/whalers.jpg" alt="North Haven Whalers"/>
 						<figcaption>
 							<h2>North Haven Whaler Rentals</h2>
-							<p>A stripped-down Squarespace theme with built-in reservation system tailored to client needs.
-								<a href="https://northhavenwhalers.com" target="_blank">Visit the Site 
-									<i class="fa fa-angle-right" aria-hidden="true"></i>
-									<i class="fa fa-angle-right" aria-hidden="true"></i>
-								</a>
-							</p>
+							<p>Boat Rentals</p>
+							<span class="plus">+</span>
 						</figcaption>			
 					</figure>
 
-					<figure>
+					<figure id="billysims">
 						<img src="assets/images/screenshots/billysims.jpg" alt="Billy Sims China Food Group"/>
 						<figcaption>
 							<h2>Billy Sims China Food Group</h2>
-							<p>Former Heisman winner Sims' food exporting startup gets a boost with this WP site.
-								<a href="http://chinafoodhub.com" target="_blank">Visit the Site 
-									<i class="fa fa-angle-right" aria-hidden="true"></i>
-									<i class="fa fa-angle-right" aria-hidden="true"></i>
-								</a>
-							</p>
+							<p>Importing/Exporting</p>
+							<span class="plus">+</span>
 						</figcaption>			
 					</figure>
-					
-
-
 				</div>
 			</div>
 		</section>
@@ -223,6 +196,74 @@ if($_POST["submit"]) {
 			</div>
 		</footer>
 	</main>
-
+	<div id="overlay-full"></div>
+	<div class="carousel-showcase carousel slide" id="myCarousel" data-interval="false">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="customCarouselIndicator active"></li>
+            <li data-target="#myCarousel" data-slide-to="1" class="customCarouselIndicator"></li>
+            <li data-target="#myCarousel" data-slide-to="2" class="customCarouselIndicator"></li>
+            <li data-target="#myCarousel" data-slide-to="3" class="customCarouselIndicator"></li>
+            <li data-target="#myCarousel" data-slide-to="4" class="customCarouselIndicator"></li>
+            <li data-target="#myCarousel" data-slide-to="5" class="customCarouselIndicator"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item one active">
+                <img src="assets/images/screenshots/nahant-swim.jpg" alt="Nahant S.W.I.M.">
+                <div class="carousel-caption">
+                    <h3>Title for the Image</h3>
+                    <p>Lorem ipsum dolor sit amet onsectetuer adipiscing elit. Nunc varius facilisis eros in velit quis arcu ornare laoreet. Curabitur adipiscing luctus massa teger ut purus ac augue commodo commodo. Nunc nec mi eu justo tempor consectetuer.</p>
+                    <a href="#">Visit the site <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="item two">
+            	<img src="assets/images/screenshots/vtparks.jpg" alt="Vermont State Parks">
+                <div class="carousel-caption">
+                    <h3>Title for the Image</h3>
+                    <p>Lorem ipsum dolor sit amet onsectetuer adipiscing elit. Nunc varius facilisis eros in velit quis arcu ornare laoreet. Curabitur adipiscing luctus massa teger ut purus ac augue commodo commodo. Nunc nec mi eu justo tempor consectetuer.</p>
+                    <a href="#">Visit the site <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="item three">
+                <img src="assets/images/screenshots/bernstein.jpg" alt="Steven Bernstein">
+                <div class="carousel-caption">
+                    <h3>Title for the Image</h3>
+                    <p>Lorem ipsum dolor sit amet onsectetuer adipiscing elit. Nunc varius facilisis eros in velit quis arcu ornare laoreet. Curabitur adipiscing luctus massa teger ut purus ac augue commodo commodo. Nunc nec mi eu justo tempor consectetuer.</p>
+                    <a href="#">Visit the site <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="item four">
+            	<img src="assets/images/screenshots/agatewood.jpg" alt="Agatewood">
+                <div class="carousel-caption">
+                    <h3>Title for the Image</h3>
+                    <p>Lorem ipsum dolor sit amet onsectetuer adipiscing elit. Nunc varius facilisis eros in velit quis arcu ornare laoreet. Curabitur adipiscing luctus massa teger ut purus ac augue commodo commodo. Nunc nec mi eu justo tempor consectetuer.</p>
+                    <a href="#">Visit the site <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="item five">
+            	<img src="assets/images/screenshots/whalers.jpg" alt="North Haven Whalers">
+                <div class="carousel-caption">
+                    <h3>Title for the Image</h3>
+                    <p>Lorem ipsum dolor sit amet onsectetuer adipiscing elit. Nunc varius facilisis eros in velit quis arcu ornare laoreet. Curabitur adipiscing luctus massa teger ut purus ac augue commodo commodo. Nunc nec mi eu justo tempor consectetuer.</p>
+                    <a href="#">Visit the site <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="item six">
+                <img src="assets/images/screenshots/billysims.jpg" alt="Billy Sims">
+                <div class="carousel-caption">
+                    <h3>Title for the Image</h3>
+                    <p>Lorem ipsum dolor sit amet onsectetuer adipiscing elit. Nunc varius facilisis eros in velit quis arcu ornare laoreet. Curabitur adipiscing luctus massa teger ut purus ac augue commodo commodo. Nunc nec mi eu justo tempor consectetuer.</p>
+                    <a href="#">Visit the site <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    	<span class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </span>
+        <span class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </span>
+    </div>
 </body>
 </html>
