@@ -43,7 +43,6 @@ $(document).ready(function() {
       $(function() {
         $("#portfolio .grid figure figcaption .plus, #portfolio .grid figure figcaption h2").click(function() {
             $("#overlay-full").addClass("show");
-            $(".carousel-showcase").addClass("show");
         });
       });
 
@@ -56,52 +55,46 @@ $(document).ready(function() {
 
       $(function() {
         $("#nahant-swim .plus, #nahant-swim h2").click(function() {
-            $(".carousel-showcase .carousel-inner .item").removeClass("active");
-            $(".carousel-showcase .carousel-inner .item.one").addClass("active");
-            $(".carousel-showcase .carousel-indicators li").removeClass("active");
-            $(".carousel-showcase .carousel-indicators li:first-child").addClass("active");
+            $("#myCarousel-nahant").addClass("show");
         });
       });
       $(function() {
         $("#vtparks .plus, #vtparks h2").click(function() {
-            $(".carousel-showcase .carousel-inner .item").removeClass("active");
-            $(".carousel-showcase .carousel-inner .item.two").addClass("active");
-            $(".carousel-showcase .carousel-indicators li").removeClass("active");
-            $(".carousel-showcase .carousel-indicators li:nth-child(2)").addClass("active");
+            $("#myCarousel-vtparks").addClass("show");
         });
       });
       $(function() {
         $("#bernstein .plus, #bernstein h2").click(function() {
-            $(".carousel-showcase .carousel-inner .item").removeClass("active");
-            $(".carousel-showcase .carousel-inner .item.three").addClass("active");
-            $(".carousel-showcase .carousel-indicators li").removeClass("active");
-            $(".carousel-showcase .carousel-indicators li:nth-child(3)").addClass("active");
+            $("#myCarousel-bernstein").addClass("show");
         });
       });
       $(function() {
         $("#agatewood .plus, #agatewood h2").click(function() {
-            $(".carousel-showcase .carousel-inner .item").removeClass("active");
-            $(".carousel-showcase .carousel-inner .item.four").addClass("active");
-            $(".carousel-showcase .carousel-indicators li").removeClass("active");
-            $(".carousel-showcase .carousel-indicators li:nth-child(4)").addClass("active");
+            $("#myCarousel-agatewood").addClass("show");
         });
       });
       $(function() {
         $("#whalers .plus, #whalers h2").click(function() {
-            $(".carousel-showcase .carousel-inner .item").removeClass("active");
-            $(".carousel-showcase .carousel-inner .item.five").addClass("active");
-            $(".carousel-showcase .carousel-indicators li").removeClass("active");
-            $(".carousel-showcase .carousel-indicators li:nth-child(5)").addClass("active");
+            $("#myCarousel-whalers").addClass("show");
         });
       });
       $(function() {
-        $("#billysims .plus, #billysims h2").click(function() {
-            $(".carousel-showcase .carousel-inner .item").removeClass("active");
-            $(".carousel-showcase .carousel-inner .item.six").addClass("active");
-            $(".carousel-showcase .carousel-indicators li").removeClass("active");
-            $(".carousel-showcase .carousel-indicators li:nth-child(6)").addClass("active");
+        $("#billyims .plus, #billysims h2").click(function() {
+            $("#myCarousel-sims").addClass("show");
         });
       });
+      $(function() {
+        $("#cbwd .plus, #cbwd h2").click(function() {
+            $("#myCarousel-cbwd").addClass("show");
+        });
+      });
+      $(function() {
+        $("#adventureland .plus, #adventureland h2").click(function() {
+            $("#myCarousel-adventureland").addClass("show");
+        });
+      });
+      
+      
 
 
     $(document).on('touchstart', function() {

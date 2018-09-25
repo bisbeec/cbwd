@@ -133,6 +133,24 @@ if($_POST["submit"]) {
 							<span class="plus">+</span>
 						</figcaption>			
 					</figure>
+
+					<figure id="cbwd">
+						<img src="assets/images/screenshots/cbwd.jpg" alt="CBWD"/>
+						<figcaption>
+							<h2>CBWD</h2>
+							<p>Professional Portfolio</p>
+							<span class="plus">+</span>
+						</figcaption>			
+					</figure>
+
+					<figure id="adventureland">
+						<img src="assets/images/screenshots/adventureland.jpg" alt="Adventureland"/>
+						<figcaption>
+							<h2>Adventureland</h2>
+							<p>Personal Travel Blog</p>
+							<span class="plus">+</span>
+						</figcaption>			
+					</figure>
 				</div>
 			</div>
 		</section>
@@ -199,71 +217,322 @@ if($_POST["submit"]) {
 
 	<!--OVERLAY CAROUSEL-->
 	<div id="overlay-full"></div>
-	<div class="carousel-showcase carousel slide" id="myCarousel" data-interval="false">
+
+	<!--NAHANT SWIM-->
+	<div class="carousel-showcase carousel slide" id="myCarousel-nahant" data-interval="false">
 		<span class="faux-x">X</span>
         <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="customCarouselIndicator active"></li>
-            <li data-target="#myCarousel" data-slide-to="1" class="customCarouselIndicator"></li>
-            <li data-target="#myCarousel" data-slide-to="2" class="customCarouselIndicator"></li>
-            <li data-target="#myCarousel" data-slide-to="3" class="customCarouselIndicator"></li>
-            <li data-target="#myCarousel" data-slide-to="4" class="customCarouselIndicator"></li>
-            <li data-target="#myCarousel" data-slide-to="5" class="customCarouselIndicator"></li>
+            <li data-target="#myCarousel-nahant" data-slide-to="0" class="customCarouselIndicator active"></li>
+            <li data-target="#myCarousel-nahant" data-slide-to="1" class="customCarouselIndicator"></li>
+            <li data-target="#myCarousel-nahant" data-slide-to="2" class="customCarouselIndicator"></li>
+            <li data-target="#myCarousel-nahant" data-slide-to="3" class="customCarouselIndicator"></li>
+            <li data-target="#myCarousel-nahant" data-slide-to="4" class="customCarouselIndicator"></li>
+            <li data-target="#myCarousel-nahant" data-slide-to="5" class="customCarouselIndicator"></li>
         </ol>
         <div class="carousel-inner" role="listbox">
-            <div class="item one active">
-                <img src="assets/images/screenshots/nahant-swim.jpg" alt="Nahant S.W.I.M.">
-                <div class="carousel-caption">
-                    <h3>Title for the Image</h3>
-                    <p>Lorem ipsum dolor sit amet onsectetuer adipiscing elit. Nunc varius facilisis eros in velit quis arcu ornare laoreet. Curabitur adipiscing luctus massa teger ut purus ac augue commodo commodo. Nunc nec mi eu justo tempor consectetuer.</p>
-                    <a href="#">Visit the site <i class="fa fa-arrow-right"></i></a>
-                </div>
+            <div class="item active">
+                <img src="assets/images/carousel/nahant-swim-home.jpg" alt="Nahant S.W.I.M.">
             </div>
-            <div class="item two">
-            	<img src="assets/images/screenshots/vtparks.jpg" alt="Vermont State Parks">
-                <div class="carousel-caption">
-                    <h3>Title for the Image</h3>
-                    <p>Lorem ipsum dolor sit amet onsectetuer adipiscing elit. Nunc varius facilisis eros in velit quis arcu ornare laoreet. Curabitur adipiscing luctus massa teger ut purus ac augue commodo commodo. Nunc nec mi eu justo tempor consectetuer.</p>
-                    <a href="#">Visit the site <i class="fa fa-arrow-right"></i></a>
-                </div>
+            <div class="item">
+            	<img src="assets/images/carousel/nahant-swim-multiple2.jpg" alt="Nahant S.W.I.M.">
             </div>
-            <div class="item three">
-                <img src="assets/images/screenshots/bernstein.jpg" alt="Steven Bernstein">
-                <div class="carousel-caption">
-                    <h3>Title for the Image</h3>
-                    <p>Lorem ipsum dolor sit amet onsectetuer adipiscing elit. Nunc varius facilisis eros in velit quis arcu ornare laoreet. Curabitur adipiscing luctus massa teger ut purus ac augue commodo commodo. Nunc nec mi eu justo tempor consectetuer.</p>
-                    <a href="#">Visit the site <i class="fa fa-arrow-right"></i></a>
-                </div>
+            <div class="item">
+            	<img src="assets/images/carousel/nahant-swim-support.jpg" alt="Nahant S.W.I.M.">
             </div>
-            <div class="item four">
-            	<img src="assets/images/screenshots/agatewood.jpg" alt="Agatewood">
-                <div class="carousel-caption">
-                    <h3>Title for the Image</h3>
-                    <p>Lorem ipsum dolor sit amet onsectetuer adipiscing elit. Nunc varius facilisis eros in velit quis arcu ornare laoreet. Curabitur adipiscing luctus massa teger ut purus ac augue commodo commodo. Nunc nec mi eu justo tempor consectetuer.</p>
-                    <a href="#">Visit the site <i class="fa fa-arrow-right"></i></a>
-                </div>
+            <div class="item">
+            	<img src="assets/images/carousel/nahant-swim-contact.jpg" alt="Nahant S.W.I.M.">
             </div>
-            <div class="item five">
-            	<img src="assets/images/screenshots/whalers.jpg" alt="North Haven Whalers">
-                <div class="carousel-caption">
-                    <h3>Title for the Image</h3>
-                    <p>Lorem ipsum dolor sit amet onsectetuer adipiscing elit. Nunc varius facilisis eros in velit quis arcu ornare laoreet. Curabitur adipiscing luctus massa teger ut purus ac augue commodo commodo. Nunc nec mi eu justo tempor consectetuer.</p>
-                    <a href="#">Visit the site <i class="fa fa-arrow-right"></i></a>
-                </div>
+            <div class="item">
+            	<img src="assets/images/carousel/nahant-swim-phone-menu.jpg" alt="Nahant S.W.I.M.">
             </div>
-            <div class="item six">
-                <img src="assets/images/screenshots/billysims.jpg" alt="Billy Sims">
-                <div class="carousel-caption">
-                    <h3>Title for the Image</h3>
-                    <p>Lorem ipsum dolor sit amet onsectetuer adipiscing elit. Nunc varius facilisis eros in velit quis arcu ornare laoreet. Curabitur adipiscing luctus massa teger ut purus ac augue commodo commodo. Nunc nec mi eu justo tempor consectetuer.</p>
-                    <a href="#">Visit the site <i class="fa fa-arrow-right"></i></a>
-                </div>
+            <div class="item">
+            	<img src="assets/images/carousel/nahant-swim-multiple.jpg" alt="Nahant S.W.I.M.">
+            </div>
+            <div class="carousel-caption">
+            	<h3>Title for the Image</h3>
+                <p>Lorem ipsum dolor sit amet onsectetuer adipiscing elit. Nunc varius facilisis eros in velit quis arcu ornare laoreet. Curabitur adipiscing luctus massa teger ut purus ac augue commodo commodo. Nunc nec mi eu justo tempor consectetuer.</p>
+                <a href="#">Visit the site <i class="fa fa-arrow-right"></i></a>
             </div>
         </div>
-    	<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    	<a class="left carousel-control" href="#myCarousel-nahant" role="button" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
         </a>
-        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <a class="right carousel-control" href="#myCarousel-nahant" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!--VT STATE PARKS-->
+    <div class="carousel-showcase carousel slide" id="myCarousel-vtparks" data-interval="false">
+		<span class="faux-x">X</span>
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel-vtparks" data-slide-to="0" class="customCarouselIndicator active"></li>
+            <li data-target="#myCarousel-vtparks" data-slide-to="1" class="customCarouselIndicator"></li>
+            <li data-target="#myCarousel-vtparks" data-slide-to="2" class="customCarouselIndicator"></li>
+            <li data-target="#myCarousel-vtparks" data-slide-to="3" class="customCarouselIndicator"></li>
+            <li data-target="#myCarousel-vtparks" data-slide-to="4" class="customCarouselIndicator"></li>
+            <li data-target="#myCarousel-vtparks" data-slide-to="5" class="customCarouselIndicator"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="assets/images/carousel/vtparks-home.jpg" alt="Vermont State Parks">
+            </div>
+            <div class="item">
+            	<img src="assets/images/carousel/vtparks-multiple2.jpg" alt="Vermont State Parks">
+            </div>
+            <div class="item">
+            	<img src="assets/images/carousel/vtparks-brighton.jpg" alt="Vermont State Parks">
+            </div>
+            <div class="item">
+            	<img src="assets/images/carousel/vtparks-phone-menu.jpg" alt="Vermont State Parks">
+            </div>
+            <div class="item">
+            	<img src="assets/images/carousel/vtparks-multiple.jpg" alt="Vermont State Parks">
+            </div>
+            <div class="item">
+            	<img src="assets/images/carousel/vtparks-hiking.jpg" alt="Vermont State Parks">
+            </div>
+            <div class="carousel-caption">
+                <h3>Title for the Image</h3>
+                <p>Lorem ipsum dolor sit amet onsectetuer adipiscing elit. Nunc varius facilisis eros in velit quis arcu ornare laoreet. Curabitur adipiscing luctus massa teger ut purus ac augue commodo commodo. Nunc nec mi eu justo tempor consectetuer.</p>
+                <a href="#">Visit the site <i class="fa fa-arrow-right"></i></a>
+            </div>
+        </div>
+    	<a class="left carousel-control" href="#myCarousel-vtparks" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel-vtparks" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!--BERNSTEIN-->
+    <div class="carousel-showcase carousel slide" id="myCarousel-bernstein" data-interval="false">
+		<span class="faux-x">X</span>
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel-bernstein" data-slide-to="0" class="customCarouselIndicator active"></li>
+            <li data-target="#myCarousel-bernstein" data-slide-to="1" class="customCarouselIndicator"></li>
+            <li data-target="#myCarousel-bernstein" data-slide-to="2" class="customCarouselIndicator"></li>
+            <li data-target="#myCarousel-bernstein" data-slide-to="3" class="customCarouselIndicator"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="assets/images/carousel/bernstein-home.jpg" alt="Bernstein">
+            </div>
+            <div class="item">
+                <img src="assets/images/carousel/bernstein-multiple2.jpg" alt="Bernstein">
+            </div>
+            <div class="item">
+                <img src="assets/images/carousel/bernstein-about.jpg" alt="Bernstein">
+            </div>
+            <div class="item">
+                <img src="assets/images/carousel/bernstein-services.jpg" alt="Bernstein">
+            </div>
+            <div class="carousel-caption">
+                <h3>Title for the Image</h3>
+                <p>Lorem ipsum dolor sit amet onsectetuer adipiscing elit. Nunc varius facilisis eros in velit quis arcu ornare laoreet. Curabitur adipiscing luctus massa teger ut purus ac augue commodo commodo. Nunc nec mi eu justo tempor consectetuer.</p>
+                <a href="#">Visit the site <i class="fa fa-arrow-right"></i></a>
+            </div>
+        </div>
+    	<a class="left carousel-control" href="#myCarousel-bernstein" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel-bernstein" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!--AGATEWOOD-->
+    <div class="carousel-showcase carousel slide" id="myCarousel-agatewood" data-interval="false">
+		<span class="faux-x">X</span>
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel-agatewood" data-slide-to="0" class="customCarouselIndicator active"></li>
+            <li data-target="#myCarousel-agatewood" data-slide-to="1" class="customCarouselIndicator"></li>
+            <li data-target="#myCarousel-agatewood" data-slide-to="2" class="customCarouselIndicator"></li>
+            <li data-target="#myCarousel-agatewood" data-slide-to="3" class="customCarouselIndicator"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="assets/images/carousel/agatewood-home.jpg" alt="Agatewood">
+            </div>
+            <div class="item">
+                <img src="assets/images/carousel/agatewood-multiple2.jpg" alt="Agatewood">
+            </div>
+            <div class="item">
+                <img src="assets/images/carousel/agatewood-what-we-do.jpg" alt="Agatewood">
+            </div>
+            <div class="item">
+                <img src="assets/images/carousel/agatewood-projects.jpg" alt="Agatewood">
+            </div>
+            <div class="carousel-caption">
+                <h3>Title for the Image</h3>
+                <p>Lorem ipsum dolor sit amet onsectetuer adipiscing elit. Nunc varius facilisis eros in velit quis arcu ornare laoreet. Curabitur adipiscing luctus massa teger ut purus ac augue commodo commodo. Nunc nec mi eu justo tempor consectetuer.</p>
+                <a href="#">Visit the site <i class="fa fa-arrow-right"></i></a>
+            </div>
+        </div>
+    	<a class="left carousel-control" href="#myCarousel-agatewood" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel-agatewood" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!--WHALERS-->
+    <div class="carousel-showcase carousel slide" id="myCarousel-whalers" data-interval="false">
+		<span class="faux-x">X</span>
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel-whalers" data-slide-to="0" class="customCarouselIndicator active"></li>
+            <li data-target="#myCarousel-whalers" data-slide-to="1" class="customCarouselIndicator"></li>
+            <li data-target="#myCarousel-whalers" data-slide-to="2" class="customCarouselIndicator"></li>
+            <li data-target="#myCarousel-whalers" data-slide-to="3" class="customCarouselIndicator"></li>
+            <li data-target="#myCarousel-whalers" data-slide-to="4" class="customCarouselIndicator"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="assets/images/carousel/whalers-home.jpg" alt="North Haven Whaler Rentals">
+            </div>
+            <div class="item">
+                <img src="assets/images/carousel/whalers-multiple.jpg" alt="North Haven Whaler Rentals">
+            </div>
+            <div class="item">
+                <img src="assets/images/carousel/whalers-rentals.jpg" alt="North Haven Whaler Rentals">
+            </div>
+            <div class="item">
+                <img src="assets/images/carousel/whalers-policies.jpg" alt="North Haven Whaler Rentals">
+            </div>
+            <div class="item">
+                <img src="assets/images/carousel/whalers-contact.jpg" alt="North Haven Whaler Rentals">
+            </div>
+            <div class="carousel-caption">
+                <h3>Title for the Image</h3>
+                <p>Lorem ipsum dolor sit amet onsectetuer adipiscing elit. Nunc varius facilisis eros in velit quis arcu ornare laoreet. Curabitur adipiscing luctus massa teger ut purus ac augue commodo commodo. Nunc nec mi eu justo tempor consectetuer.</p>
+                <a href="#">Visit the site <i class="fa fa-arrow-right"></i></a>
+            </div>
+        </div>
+    	<a class="left carousel-control" href="#myCarousel-whalers" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel-whalers" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!--BILLY SIMS-->
+    <div class="carousel-showcase carousel slide" id="myCarousel-sims" data-interval="false">
+		<span class="faux-x">X</span>
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel-sims" data-slide-to="0" class="customCarouselIndicator active"></li>
+            <li data-target="#myCarousel-sims" data-slide-to="1" class="customCarouselIndicator"></li>
+            <li data-target="#myCarousel-sims" data-slide-to="2" class="customCarouselIndicator"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="assets/images/carousel/billysims-home.jpg" alt="China Food Hub">
+            </div>
+            <div class="item">
+                <img src="assets/images/carousel/billysims-multiple.jpg" alt="China Food Hub">
+            </div>
+            <div class="item">
+                <img src="assets/images/carousel/billysims-about.jpg" alt="China Food Hub">
+            </div>
+            <div class="carousel-caption">
+                <h3>Title for the Image</h3>
+                <p>Lorem ipsum dolor sit amet onsectetuer adipiscing elit. Nunc varius facilisis eros in velit quis arcu ornare laoreet. Curabitur adipiscing luctus massa teger ut purus ac augue commodo commodo. Nunc nec mi eu justo tempor consectetuer.</p>
+                <a href="#">Visit the site <i class="fa fa-arrow-right"></i></a>
+            </div>
+        </div>
+    	<a class="left carousel-control" href="#myCarousel-sims" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel-sims" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!--CBWD-->
+    <div class="carousel-showcase carousel slide" id="myCarousel-cbwd" data-interval="false">
+		<span class="faux-x">X</span>
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel-cbwd" data-slide-to="0" class="customCarouselIndicator active"></li>
+            <li data-target="#myCarousel-cbwd" data-slide-to="1" class="customCarouselIndicator"></li>
+            <li data-target="#myCarousel-cbwd" data-slide-to="2" class="customCarouselIndicator"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="assets/images/carousel/cbwd-home.jpg" alt="CBWD">
+            </div>
+            <div class="item">
+                <img src="assets/images/carousel/cbwd-multiple.jpg" alt="CBWD">
+            </div>
+            <div class="item">
+                <img src="assets/images/carousel/cbwd-carousel.jpg" alt="CBWD">
+            </div>
+            <div class="carousel-caption">
+                <h3>Title for the Image</h3>
+                <p>Lorem ipsum dolor sit amet onsectetuer adipiscing elit. Nunc varius facilisis eros in velit quis arcu ornare laoreet. Curabitur adipiscing luctus massa teger ut purus ac augue commodo commodo. Nunc nec mi eu justo tempor consectetuer.</p>
+                <a href="#">Visit the site <i class="fa fa-arrow-right"></i></a>
+            </div>
+        </div>
+    	<a class="left carousel-control" href="#myCarousel-cbwd" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel-cbwd" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!--ADVENTURELAND-->
+    <div class="carousel-showcase carousel slide" id="myCarousel-adventureland" data-interval="false">
+		<span class="faux-x">X</span>
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel-adventureland" data-slide-to="0" class="customCarouselIndicator active"></li>
+            <li data-target="#myCarousel-adventureland" data-slide-to="1" class="customCarouselIndicator"></li>
+            <li data-target="#myCarousel-adventureland" data-slide-to="2" class="customCarouselIndicator"></li>
+            <li data-target="#myCarousel-adventureland" data-slide-to="3" class="customCarouselIndicator"></li>
+            <li data-target="#myCarousel-adventureland" data-slide-to="4" class="customCarouselIndicator"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="assets/images/carousel/adventureland-home.jpg" alt="Adventureland">
+            </div>
+            <div class="item">
+                <img src="assets/images/carousel/adventureland-multiple.jpg" alt="Adventureland">
+            </div>
+            <div class="item">
+                <img src="assets/images/carousel/adventureland-photos-hover.jpg" alt="Adventureland">
+            </div>
+            <div class="item">
+                <img src="assets/images/carousel/adventureland-stories.jpg" alt="Adventureland">
+            </div>
+            <div class="item">
+                <img src="assets/images/carousel/adventureland-gallery.jpg" alt="Adventureland">
+            </div>
+            <div class="carousel-caption">
+                <h3>Title for the Image</h3>
+                <p>Lorem ipsum dolor sit amet onsectetuer adipiscing elit. Nunc varius facilisis eros in velit quis arcu ornare laoreet. Curabitur adipiscing luctus massa teger ut purus ac augue commodo commodo. Nunc nec mi eu justo tempor consectetuer.</p>
+                <a href="#">Visit the site <i class="fa fa-arrow-right"></i></a>
+            </div>
+        </div>
+    	<a class="left carousel-control" href="#myCarousel-adventureland" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel-adventureland" role="button" data-slide="next">
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>

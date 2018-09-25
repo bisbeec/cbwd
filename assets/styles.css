@@ -357,7 +357,7 @@ footer {
 .carousel-showcase {
   position: absolute !important;
   position: fixed !important;
-  top: 13%;
+  top: 5%;
   left: 0;
   right: 0;
   width: 50%;
@@ -390,7 +390,7 @@ footer {
         width: 10px;
         height: 10px; }
   .carousel-showcase .carousel-control {
-    width: auto;
+    width: 5%;
     opacity: initial;
     background-color: initial;
     text-shadow: none;
