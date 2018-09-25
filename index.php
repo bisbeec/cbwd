@@ -102,7 +102,7 @@ if($_POST["submit"]) {
 						<img src="assets/images/screenshots/bernstein.jpg" alt="Steven Bernstein"/>
 						<figcaption>
 							<h2>Steven Bernstein</h2>
-							<p>Couples & Individual's Therapy</p>
+							<p>Couples & Individual Therapy</p>
 							<span class="plus">+</span>
 						</figcaption>			
 					</figure>
@@ -196,7 +196,7 @@ if($_POST["submit"]) {
 			</div>
 		</footer>
 	</main>
-	
+
 	<!--OVERLAY CAROUSEL-->
 	<div id="overlay-full"></div>
 	<div class="carousel-showcase carousel slide" id="myCarousel" data-interval="false">
