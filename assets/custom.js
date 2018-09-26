@@ -43,6 +43,7 @@ $(document).ready(function() {
       $(function() {
         $("#portfolio .grid figure figcaption .plus, #portfolio .grid figure figcaption h2").click(function() {
             $("#overlay-full").addClass("show");
+            $("body").addClass("noScroll");
         });
       });
 
@@ -50,6 +51,7 @@ $(document).ready(function() {
         $("#overlay-full, .faux-x").click(function() {
             $("#overlay-full").removeClass("show");
             $(".carousel-showcase").removeClass("show");
+            $("body").removeClass("noScroll");
         });
       });
 
@@ -79,7 +81,7 @@ $(document).ready(function() {
         });
       });
       $(function() {
-        $("#billyims .plus, #billysims h2").click(function() {
+        $("#billysims .plus, #billysims h2").click(function() {
             $("#myCarousel-sims").addClass("show");
         });
       });

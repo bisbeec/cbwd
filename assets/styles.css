@@ -20,6 +20,8 @@ body {
   body h1, body h2, body h3, body h4, body h5, body h6, body p {
     margin: 0;
     padding: 0; }
+  body.noScroll {
+    overflow-y: hidden; }
 
 /* thank you message */
 h6 {
@@ -241,7 +243,8 @@ h6 {
     margin: 0 1.5% 20px;
     position: relative;
     overflow: hidden;
-    background: #1B75BB; }
+    background: #1B75BB;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5); }
     .grid figure img {
       position: relative;
       display: block;
@@ -361,6 +364,7 @@ footer {
   left: 0;
   right: 0;
   width: 50%;
+  max-width: 650px;
   margin: auto;
   z-index: 4;
   display: none; }
@@ -504,6 +508,9 @@ footer {
 
   .grid figure figcaption h2 {
     font-size: 90%; }
+
+  .carousel-showcase .carousel-control {
+    width: 10%; }
 
   footer {
     padding-top: 0; } }

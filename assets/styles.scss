@@ -37,6 +37,9 @@ body {
 		margin: 0;
 		padding: 0;
 	}
+	&.noScroll {
+		overflow-y: hidden;
+	}
 }
 
 /* thank you message */
@@ -312,6 +315,7 @@ h6 {
     	position: relative;
     	overflow: hidden;
     	background: $blueOne;
+    	box-shadow: 0 3px 10px rgba(0,0,0,0.5);
     	img {
     		position: relative;
 		    display: block;
@@ -454,6 +458,7 @@ footer {
 	left: 0;
 	right: 0;
 	width: 50%;
+	max-width: 650px;
 	margin: auto;
 	z-index: 4;
 	display: none;
@@ -635,6 +640,10 @@ footer {
 	}
 	.grid figure figcaption h2 {
 		font-size: 90%;
+	}
+
+	.carousel-showcase .carousel-control {
+		width: 10%;
 	}
 
 	
