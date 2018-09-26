@@ -38,7 +38,7 @@ body {
 		padding: 0;
 	}
 	&.noScroll {
-		overflow-y: hidden;
+		overflow-y: hidden !important;
 	}
 }
 
@@ -446,13 +446,14 @@ footer {
 	z-index: 3;
 	background: rgba(0,0,0,.7);
 	top: 0;
+	right: 0;
 	left: 0;
+	bottom: 0;
 	display: none;
 }
 
 /*Carousel*/
 .carousel-showcase {
-	position: absolute !important;
 	position: fixed !important;
 	top: 5%;
 	left: 0;
@@ -642,8 +643,19 @@ footer {
 		font-size: 90%;
 	}
 
-	.carousel-showcase .carousel-control {
-		width: 10%;
+	.carousel-showcase {
+		top: 4%;
+		.carousel-control {
+			width: 10%;
+		}
+		.carousel-caption {
+			h3 {
+				font-size: 18px;
+			}
+			p {
+				font-size: 14px;
+			}
+		}
 	}
 
 	

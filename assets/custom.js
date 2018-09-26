@@ -40,21 +40,14 @@ $(document).ready(function() {
         });
       });
 
+
+
       $(function() {
         $("#portfolio .grid figure figcaption .plus, #portfolio .grid figure figcaption h2").click(function() {
             $("#overlay-full").addClass("show");
             $("body").addClass("noScroll");
         });
       });
-
-      $(function() {
-        $("#overlay-full, .faux-x").click(function() {
-            $("#overlay-full").removeClass("show");
-            $(".carousel-showcase").removeClass("show");
-            $("body").removeClass("noScroll");
-        });
-      });
-
       $(function() {
         $("#nahant-swim .plus, #nahant-swim h2").click(function() {
             $("#myCarousel-nahant").addClass("show");
@@ -93,6 +86,14 @@ $(document).ready(function() {
       $(function() {
         $("#adventureland .plus, #adventureland h2").click(function() {
             $("#myCarousel-adventureland").addClass("show");
+        });
+      });
+
+      $(function() {
+        $("#overlay-full, .faux-x").click(function() {
+            $("#overlay-full").removeClass("show");
+            $(".carousel-showcase").removeClass("show");
+            $("body").removeClass("noScroll");
         });
       });
       
