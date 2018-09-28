@@ -472,7 +472,6 @@ if($_POST["submit"]) {
 	        <ol class="carousel-indicators">
 	            <li data-target="#myCarousel-cbwd" data-slide-to="0" class="customCarouselIndicator active"></li>
 	            <li data-target="#myCarousel-cbwd" data-slide-to="1" class="customCarouselIndicator"></li>
-	            <li data-target="#myCarousel-cbwd" data-slide-to="2" class="customCarouselIndicator"></li>
 	        </ol>
 	        <div class="carousel-inner" role="listbox">
 	            <div class="item active">
@@ -480,9 +479,6 @@ if($_POST["submit"]) {
 	            </div>
 	            <div class="item">
 	                <img src="assets/images/carousel/cbwd-multiple.jpg" alt="CBWD">
-	            </div>
-	            <div class="item">
-	                <img src="assets/images/carousel/cbwd-carousel.jpg" alt="CBWD">
 	            </div>
 	            <div class="carousel-caption">
 	                <h3>CBWD</h3>
