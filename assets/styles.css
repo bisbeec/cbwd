@@ -17,7 +17,7 @@ body {
     list-style: none; }
   body a, body a:hover {
     text-decoration: none !important; }
-  body h1, body h2, body h3, body h4, body h5, body h6, body p {
+  body h1, body h2, body h3, body h4, body h5, body p {
     margin: 0;
     padding: 0; }
   body.noScroll {
