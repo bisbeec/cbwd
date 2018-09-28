@@ -365,7 +365,7 @@ footer {
   left: 0;
   right: 0;
   width: 50%;
-  max-width: 650px;
+  max-width: 1200px;
   margin: auto;
   z-index: 4;
   display: none; }
@@ -511,7 +511,7 @@ footer {
     font-size: 90%; }
 
   .carousel-showcase {
-    width: 75%;
+    width: 73%;
     top: 8%; }
     .carousel-showcase .carousel-control {
       width: 10%; }
