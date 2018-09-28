@@ -1,7 +1,7 @@
 <?php
 
 if($_POST["submit"]) {
-    $recipient="bisbeec@gmail.com";
+    $recipient="me@charliebisbee.com";
     $subject="CBWD Website Message";
     $sender=$_POST["sender"];
     $senderEmail=$_POST["senderEmail"];
@@ -67,7 +67,7 @@ if($_POST["submit"]) {
 			<div class="content width-wrap">
 				<img id="my-img" src="assets/images/me-square.jpg" alt="Charlie">
 				<h1>Hi, I'm Charlie.</h1>
-				<p>I'm a front end developer specializing in user-friendly experiences with simple layouts. A self-taught programmer, I code with HTML5 and CSS (Sass) to create beautiful, interactive and fully responsive websites. Feel free to check out <a href="#portfolio" class="scroll-link">my portfolio</a> of screenshots. You can also view my code at <a href="https://github.com/bisbeec" target="_blank">github.com/bisbeec</a>. Fun pens can be found <a href="https://codepen.io/cbisbee/" target="_blank">here</a>.</p>
+				<p>I'm a front end developer specializing in user-friendly experiences with simple layouts. A self-taught programmer, I code with HTML5 and CSS3 (Sass) to create beautiful, interactive and fully responsive websites. Feel free to check out <a href="#portfolio" class="scroll-link">my portfolio</a> of screenshots. You can also view my code at <a href="https://github.com/bisbeec" target="_blank">github.com/bisbeec</a>. Fun pens can be found <a href="https://codepen.io/cbisbee/" target="_blank">here</a>.</p>
 				<p>Whether you're an employer, a recruiter, a co-founder, or a fellow developer, <a href="#contact" class="scroll-link">contact me</a> to discuss collaborating on a project.</p>
 			</div>
 			<div class="overlay"></div>
