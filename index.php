@@ -216,7 +216,7 @@ if($_POST["submit"]) {
 	</main>
 
 	<!--OVERLAY CAROUSEL-->
-	<div id="overlay-full"></div>
+	<div id="overlay-full">
 
 	<!--NAHANT SWIM-->
 	<div class="carousel-showcase carousel slide" id="myCarousel-nahant" data-interval="false">
@@ -418,7 +418,7 @@ if($_POST["submit"]) {
             </div>
             <div class="carousel-caption">
                 <h3>North Haven Whaler Rentals</h3>
-                <p>Kate Yoder and her family were trying to get their fledgling whaler rental operation off the ground and approached Bartlett and me about helping in the process. We created this Squarespace site that utlizes a third-party rental system. <small><em>(Squarespace, CSS, HTML)</em></small></p>
+                <p>Kate Yoder and her family were trying to get their fledgling whaler rental operation off the ground and approached Bartlett and me about helping in the process. We created this Squarespace site that utilizes a third-party rental system. <small><em>(Squarespace, CSS, HTML)</em></small></p>
                 <a href="https://www.northhavenwhalers.com/" target="_blank">Visit the site <i class="fa fa-arrow-right"></i></a>
             </div>
         </div>
@@ -539,6 +539,6 @@ if($_POST["submit"]) {
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
-    </div>
+    </div></div>
 </body>
 </html>

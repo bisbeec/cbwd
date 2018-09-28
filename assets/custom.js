@@ -90,7 +90,7 @@ $(document).ready(function() {
       });
 
       $(function() {
-        $("#overlay-full, .faux-x").click(function() {
+        $(".faux-x").click(function() {
             $("#overlay-full").removeClass("show");
             $(".carousel-showcase").removeClass("show");
             $("body").removeClass("noScroll");

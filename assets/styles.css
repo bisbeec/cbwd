@@ -161,7 +161,7 @@ h6 {
         .section.intro .content p a:hover::after {
           width: 100%; }
   .section.work {
-    background-color: #ddd; }
+    background-color: #eee; }
   .section.testimonials {
     background-color: #3f9ce3; }
     .section.testimonials .testi-sec {
@@ -356,11 +356,11 @@ footer {
   right: 0;
   left: 0;
   bottom: 0;
+  overflow-y: scroll;
   display: none; }
 
 /*Carousel*/
 .carousel-showcase {
-  position: fixed !important;
   top: 5%;
   left: 0;
   right: 0;
@@ -375,7 +375,7 @@ footer {
     font-size: 20px;
     font-weight: bold;
     right: 1%;
-    top: 1%;
+    top: 2%;
     cursor: pointer;
     background-color: #ccc;
     padding: 0 5px;
@@ -468,9 +468,9 @@ footer {
   .carousel-showcase {
     width: 70%; }
     .carousel-showcase .carousel-control {
-      left: -10%; }
+      left: -12%; }
       .carousel-showcase .carousel-control.right {
-        right: -10%; } }
+        right: -12%; } }
 @media screen and (max-width: 767px) {
   #header .logo span {
     display: none; }
@@ -511,7 +511,8 @@ footer {
     font-size: 90%; }
 
   .carousel-showcase {
-    top: 4%; }
+    width: 75%;
+    top: 8%; }
     .carousel-showcase .carousel-control {
       width: 10%; }
     .carousel-showcase .carousel-caption h3 {
