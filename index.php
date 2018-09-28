@@ -218,327 +218,328 @@ if($_POST["submit"]) {
 	<!--OVERLAY CAROUSEL-->
 	<div id="overlay-full">
 
-	<!--NAHANT SWIM-->
-	<div class="carousel-showcase carousel slide" id="myCarousel-nahant" data-interval="false">
-		<span class="faux-x">X</span>
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel-nahant" data-slide-to="0" class="customCarouselIndicator active"></li>
-            <li data-target="#myCarousel-nahant" data-slide-to="1" class="customCarouselIndicator"></li>
-            <li data-target="#myCarousel-nahant" data-slide-to="2" class="customCarouselIndicator"></li>
-            <li data-target="#myCarousel-nahant" data-slide-to="3" class="customCarouselIndicator"></li>
-            <li data-target="#myCarousel-nahant" data-slide-to="4" class="customCarouselIndicator"></li>
-            <li data-target="#myCarousel-nahant" data-slide-to="5" class="customCarouselIndicator"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img src="assets/images/carousel/nahant-swim-home.jpg" alt="Nahant S.W.I.M.">
-            </div>
-            <div class="item">
-            	<img src="assets/images/carousel/nahant-swim-multiple2.jpg" alt="Nahant S.W.I.M.">
-            </div>
-            <div class="item">
-            	<img src="assets/images/carousel/nahant-swim-support.jpg" alt="Nahant S.W.I.M.">
-            </div>
-            <div class="item">
-            	<img src="assets/images/carousel/nahant-swim-contact.jpg" alt="Nahant S.W.I.M.">
-            </div>
-            <div class="item">
-            	<img src="assets/images/carousel/nahant-swim-phone-menu.jpg" alt="Nahant S.W.I.M.">
-            </div>
-            <div class="item">
-            	<img src="assets/images/carousel/nahant-swim-multiple.jpg" alt="Nahant S.W.I.M.">
-            </div>
-            <div class="carousel-caption">
-            	<h3>Nahant S.W.I.M.</h3>
-                <p>Nahant S.W.I.M. (Safer Waters in Massachusetts), is a non-profit, volunteer-run organization that works to keep the waters around Nahant and Mass. clean for future generations. Working in tandem with board executive Vi Patek and Alice Cort, I created a simple, responsive template that accentuates the organization's goals and needs. <em><small>(HTML, CSS, jQuery, Bootstrap)</small></em></p>
-                <a href="https://nahantswim.org/index.html" target="_blank">Visit the site <i class="fa fa-arrow-right"></i></a>
-            </div>
-        </div>
-    	<a class="left carousel-control" href="#myCarousel-nahant" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel-nahant" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
+		<!--NAHANT SWIM-->
+		<div class="carousel-showcase carousel slide" id="myCarousel-nahant" data-interval="false">
+			<span class="faux-x">X</span>
+	        <ol class="carousel-indicators">
+	            <li data-target="#myCarousel-nahant" data-slide-to="0" class="customCarouselIndicator active"></li>
+	            <li data-target="#myCarousel-nahant" data-slide-to="1" class="customCarouselIndicator"></li>
+	            <li data-target="#myCarousel-nahant" data-slide-to="2" class="customCarouselIndicator"></li>
+	            <li data-target="#myCarousel-nahant" data-slide-to="3" class="customCarouselIndicator"></li>
+	            <li data-target="#myCarousel-nahant" data-slide-to="4" class="customCarouselIndicator"></li>
+	            <li data-target="#myCarousel-nahant" data-slide-to="5" class="customCarouselIndicator"></li>
+	        </ol>
+	        <div class="carousel-inner" role="listbox">
+	            <div class="item active">
+	                <img src="assets/images/carousel/nahant-swim-home.jpg" alt="Nahant S.W.I.M.">
+	            </div>
+	            <div class="item">
+	            	<img src="assets/images/carousel/nahant-swim-multiple2.jpg" alt="Nahant S.W.I.M.">
+	            </div>
+	            <div class="item">
+	            	<img src="assets/images/carousel/nahant-swim-support.jpg" alt="Nahant S.W.I.M.">
+	            </div>
+	            <div class="item">
+	            	<img src="assets/images/carousel/nahant-swim-contact.jpg" alt="Nahant S.W.I.M.">
+	            </div>
+	            <div class="item">
+	            	<img src="assets/images/carousel/nahant-swim-phone-menu.jpg" alt="Nahant S.W.I.M.">
+	            </div>
+	            <div class="item">
+	            	<img src="assets/images/carousel/nahant-swim-multiple.jpg" alt="Nahant S.W.I.M.">
+	            </div>
+	            <div class="carousel-caption">
+	            	<h3>Nahant S.W.I.M.</h3>
+	                <p>Nahant S.W.I.M. (Safer Waters in Massachusetts), is a non-profit, volunteer-run organization that works to keep the waters around Nahant and Mass. clean for future generations. Working in tandem with board executive Vi Patek and Alice Cort, I created a simple, responsive template that accentuates the organization's goals and needs. <em><small>(HTML, CSS, jQuery, Bootstrap)</small></em></p>
+	                <a href="https://nahantswim.org/index.html" target="_blank">Visit the site <i class="fa fa-arrow-right"></i></a>
+	            </div>
+	        </div>
+	    	<a class="left carousel-control" href="#myCarousel-nahant" role="button" data-slide="prev">
+	            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	            <span class="sr-only">Previous</span>
+	        </a>
+	        <a class="right carousel-control" href="#myCarousel-nahant" role="button" data-slide="next">
+	            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	            <span class="sr-only">Next</span>
+	        </a>
+	    </div>
 
-    <!--VT STATE PARKS-->
-    <div class="carousel-showcase carousel slide" id="myCarousel-vtparks" data-interval="false">
-		<span class="faux-x">X</span>
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel-vtparks" data-slide-to="0" class="customCarouselIndicator active"></li>
-            <li data-target="#myCarousel-vtparks" data-slide-to="1" class="customCarouselIndicator"></li>
-            <li data-target="#myCarousel-vtparks" data-slide-to="2" class="customCarouselIndicator"></li>
-            <li data-target="#myCarousel-vtparks" data-slide-to="3" class="customCarouselIndicator"></li>
-            <li data-target="#myCarousel-vtparks" data-slide-to="4" class="customCarouselIndicator"></li>
-            <li data-target="#myCarousel-vtparks" data-slide-to="5" class="customCarouselIndicator"></li>
-            <li data-target="#myCarousel-vtparks" data-slide-to="6" class="customCarouselIndicator"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img src="assets/images/carousel/vtparks-home.jpg" alt="Vermont State Parks">
-            </div>
-            <div class="item">
-            	<img src="assets/images/carousel/vtparks-multiple2.jpg" alt="Vermont State Parks">
-            </div>
-            <div class="item">
-            	<img src="assets/images/carousel/vtparks-brighton.jpg" alt="Vermont State Parks">
-            </div>
-            <div class="item">
-            	<img src="assets/images/carousel/vtparks-phone-menu.jpg" alt="Vermont State Parks">
-            </div>
-            <div class="item">
-            	<img src="assets/images/carousel/vtparks-multiple.jpg" alt="Vermont State Parks">
-            </div>
-            <div class="item">
-            	<img src="assets/images/carousel/vtparks-hiking.jpg" alt="Vermont State Parks">
-            </div>
-            <div class="item">
-            	<img src="assets/images/carousel/vtparks-parkfinder.jpg" alt="Vermont State Parks">
-            </div>
-            <div class="carousel-caption">
-                <h3>Vermont State Parks</h3>
-                <p>Vermont State Parks' old website was outdated and built using tables and inline CSS. Working with the department's marketing head, I created and utilized a bootstrap-powered template that is intuitive and easy to use. <small><em>(HTML, CSS, JS, jQuery, Bootstrap)</em></small></p>
-                <a href="https://vtstateparks.com/" target="_blank">Visit the site <i class="fa fa-arrow-right"></i></a>
-            </div>
-        </div>
-    	<a class="left carousel-control" href="#myCarousel-vtparks" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel-vtparks" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
+	    <!--VT STATE PARKS-->
+	    <div class="carousel-showcase carousel slide" id="myCarousel-vtparks" data-interval="false">
+			<span class="faux-x">X</span>
+	        <ol class="carousel-indicators">
+	            <li data-target="#myCarousel-vtparks" data-slide-to="0" class="customCarouselIndicator active"></li>
+	            <li data-target="#myCarousel-vtparks" data-slide-to="1" class="customCarouselIndicator"></li>
+	            <li data-target="#myCarousel-vtparks" data-slide-to="2" class="customCarouselIndicator"></li>
+	            <li data-target="#myCarousel-vtparks" data-slide-to="3" class="customCarouselIndicator"></li>
+	            <li data-target="#myCarousel-vtparks" data-slide-to="4" class="customCarouselIndicator"></li>
+	            <li data-target="#myCarousel-vtparks" data-slide-to="5" class="customCarouselIndicator"></li>
+	            <li data-target="#myCarousel-vtparks" data-slide-to="6" class="customCarouselIndicator"></li>
+	        </ol>
+	        <div class="carousel-inner" role="listbox">
+	            <div class="item active">
+	                <img src="assets/images/carousel/vtparks-home.jpg" alt="Vermont State Parks">
+	            </div>
+	            <div class="item">
+	            	<img src="assets/images/carousel/vtparks-multiple2.jpg" alt="Vermont State Parks">
+	            </div>
+	            <div class="item">
+	            	<img src="assets/images/carousel/vtparks-brighton.jpg" alt="Vermont State Parks">
+	            </div>
+	            <div class="item">
+	            	<img src="assets/images/carousel/vtparks-phone-menu.jpg" alt="Vermont State Parks">
+	            </div>
+	            <div class="item">
+	            	<img src="assets/images/carousel/vtparks-multiple.jpg" alt="Vermont State Parks">
+	            </div>
+	            <div class="item">
+	            	<img src="assets/images/carousel/vtparks-hiking.jpg" alt="Vermont State Parks">
+	            </div>
+	            <div class="item">
+	            	<img src="assets/images/carousel/vtparks-parkfinder.jpg" alt="Vermont State Parks">
+	            </div>
+	            <div class="carousel-caption">
+	                <h3>Vermont State Parks</h3>
+	                <p>Vermont State Parks' old website was outdated and built using tables and inline CSS. Working with the department's marketing head, I created and utilized a bootstrap-powered template that is intuitive and easy to use. <small><em>(HTML, CSS, JS, jQuery, Bootstrap)</em></small></p>
+	                <a href="https://vtstateparks.com/" target="_blank">Visit the site <i class="fa fa-arrow-right"></i></a>
+	            </div>
+	        </div>
+	    	<a class="left carousel-control" href="#myCarousel-vtparks" role="button" data-slide="prev">
+	            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	            <span class="sr-only">Previous</span>
+	        </a>
+	        <a class="right carousel-control" href="#myCarousel-vtparks" role="button" data-slide="next">
+	            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	            <span class="sr-only">Next</span>
+	        </a>
+	    </div>
 
-    <!--BERNSTEIN-->
-    <div class="carousel-showcase carousel slide" id="myCarousel-bernstein" data-interval="false">
-		<span class="faux-x">X</span>
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel-bernstein" data-slide-to="0" class="customCarouselIndicator active"></li>
-            <li data-target="#myCarousel-bernstein" data-slide-to="1" class="customCarouselIndicator"></li>
-            <li data-target="#myCarousel-bernstein" data-slide-to="2" class="customCarouselIndicator"></li>
-            <li data-target="#myCarousel-bernstein" data-slide-to="3" class="customCarouselIndicator"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img src="assets/images/carousel/bernstein-home.jpg" alt="Bernstein">
-            </div>
-            <div class="item">
-                <img src="assets/images/carousel/bernstein-multiple2.jpg" alt="Bernstein">
-            </div>
-            <div class="item">
-                <img src="assets/images/carousel/bernstein-about.jpg" alt="Bernstein">
-            </div>
-            <div class="item">
-                <img src="assets/images/carousel/bernstein-services.jpg" alt="Bernstein">
-            </div>
-            <div class="carousel-caption">
-                <h3>Steven Bernstein Therapy</h3>
-                <p>While working with a designer from <a href="https://www.bartlettinteractive.com/" target="_blank" style="display: inline; margin: 0">Bartlett Interactive</a>, I built this Wordpress site off a pre-existing theme. Steven was looking for a site that would feel welcoming and professional and would help grow his business. <small><em>(Wordpress, CSS)</em></small></p>
-                <a href="http://www.stevenbernsteintherapy.com/" target="_blank">Visit the site <i class="fa fa-arrow-right"></i></a>
-            </div>
-        </div>
-    	<a class="left carousel-control" href="#myCarousel-bernstein" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel-bernstein" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
+	    <!--BERNSTEIN-->
+	    <div class="carousel-showcase carousel slide" id="myCarousel-bernstein" data-interval="false">
+			<span class="faux-x">X</span>
+	        <ol class="carousel-indicators">
+	            <li data-target="#myCarousel-bernstein" data-slide-to="0" class="customCarouselIndicator active"></li>
+	            <li data-target="#myCarousel-bernstein" data-slide-to="1" class="customCarouselIndicator"></li>
+	            <li data-target="#myCarousel-bernstein" data-slide-to="2" class="customCarouselIndicator"></li>
+	            <li data-target="#myCarousel-bernstein" data-slide-to="3" class="customCarouselIndicator"></li>
+	        </ol>
+	        <div class="carousel-inner" role="listbox">
+	            <div class="item active">
+	                <img src="assets/images/carousel/bernstein-home.jpg" alt="Bernstein">
+	            </div>
+	            <div class="item">
+	                <img src="assets/images/carousel/bernstein-multiple2.jpg" alt="Bernstein">
+	            </div>
+	            <div class="item">
+	                <img src="assets/images/carousel/bernstein-about.jpg" alt="Bernstein">
+	            </div>
+	            <div class="item">
+	                <img src="assets/images/carousel/bernstein-services.jpg" alt="Bernstein">
+	            </div>
+	            <div class="carousel-caption">
+	                <h3>Steven Bernstein Therapy</h3>
+	                <p>While working with a designer from <a href="https://www.bartlettinteractive.com/" target="_blank" style="display: inline; margin: 0">Bartlett Interactive</a>, I built this Wordpress site off a pre-existing theme. Steven was looking for a site that would feel welcoming and professional and would help grow his business. <small><em>(Wordpress, CSS)</em></small></p>
+	                <a href="http://www.stevenbernsteintherapy.com/" target="_blank">Visit the site <i class="fa fa-arrow-right"></i></a>
+	            </div>
+	        </div>
+	    	<a class="left carousel-control" href="#myCarousel-bernstein" role="button" data-slide="prev">
+	            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	            <span class="sr-only">Previous</span>
+	        </a>
+	        <a class="right carousel-control" href="#myCarousel-bernstein" role="button" data-slide="next">
+	            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	            <span class="sr-only">Next</span>
+	        </a>
+	    </div>
 
-    <!--AGATEWOOD-->
-    <div class="carousel-showcase carousel slide" id="myCarousel-agatewood" data-interval="false">
-		<span class="faux-x">X</span>
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel-agatewood" data-slide-to="0" class="customCarouselIndicator active"></li>
-            <li data-target="#myCarousel-agatewood" data-slide-to="1" class="customCarouselIndicator"></li>
-            <li data-target="#myCarousel-agatewood" data-slide-to="2" class="customCarouselIndicator"></li>
-            <li data-target="#myCarousel-agatewood" data-slide-to="3" class="customCarouselIndicator"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img src="assets/images/carousel/agatewood-home.jpg" alt="Agatewood">
-            </div>
-            <div class="item">
-                <img src="assets/images/carousel/agatewood-multiple2.jpg" alt="Agatewood">
-            </div>
-            <div class="item">
-                <img src="assets/images/carousel/agatewood-what-we-do.jpg" alt="Agatewood">
-            </div>
-            <div class="item">
-                <img src="assets/images/carousel/agatewood-projects.jpg" alt="Agatewood">
-            </div>
-            <div class="carousel-caption">
-                <h3>Agatewood Strategies</h3>
-                <p>Agatewood writes and implements LEED-certified sustainability strategies for a variety of organizations and institutions. Principal Dave Low came to me looking for a professional website that would be easy to manage. I bounced some template ideas off him and then created this modified WP theme. <small><em>(Wordpress, CSS, HTML)</em></small></p>
-                <a href="http://agatewoodconsulting.com/" target="_blank">Visit the site <i class="fa fa-arrow-right"></i></a>
-            </div>
-        </div>
-    	<a class="left carousel-control" href="#myCarousel-agatewood" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel-agatewood" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
+	    <!--AGATEWOOD-->
+	    <div class="carousel-showcase carousel slide" id="myCarousel-agatewood" data-interval="false">
+			<span class="faux-x">X</span>
+	        <ol class="carousel-indicators">
+	            <li data-target="#myCarousel-agatewood" data-slide-to="0" class="customCarouselIndicator active"></li>
+	            <li data-target="#myCarousel-agatewood" data-slide-to="1" class="customCarouselIndicator"></li>
+	            <li data-target="#myCarousel-agatewood" data-slide-to="2" class="customCarouselIndicator"></li>
+	            <li data-target="#myCarousel-agatewood" data-slide-to="3" class="customCarouselIndicator"></li>
+	        </ol>
+	        <div class="carousel-inner" role="listbox">
+	            <div class="item active">
+	                <img src="assets/images/carousel/agatewood-home.jpg" alt="Agatewood">
+	            </div>
+	            <div class="item">
+	                <img src="assets/images/carousel/agatewood-multiple2.jpg" alt="Agatewood">
+	            </div>
+	            <div class="item">
+	                <img src="assets/images/carousel/agatewood-what-we-do.jpg" alt="Agatewood">
+	            </div>
+	            <div class="item">
+	                <img src="assets/images/carousel/agatewood-projects.jpg" alt="Agatewood">
+	            </div>
+	            <div class="carousel-caption">
+	                <h3>Agatewood Strategies</h3>
+	                <p>Agatewood writes and implements LEED-certified sustainability strategies for a variety of organizations and institutions. Principal Dave Low came to me looking for a professional website that would be easy to manage. I bounced some template ideas off him and then created this modified WP theme. <small><em>(Wordpress, CSS, HTML)</em></small></p>
+	                <a href="http://agatewoodconsulting.com/" target="_blank">Visit the site <i class="fa fa-arrow-right"></i></a>
+	            </div>
+	        </div>
+	    	<a class="left carousel-control" href="#myCarousel-agatewood" role="button" data-slide="prev">
+	            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	            <span class="sr-only">Previous</span>
+	        </a>
+	        <a class="right carousel-control" href="#myCarousel-agatewood" role="button" data-slide="next">
+	            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	            <span class="sr-only">Next</span>
+	        </a>
+	    </div>
 
-    <!--WHALERS-->
-    <div class="carousel-showcase carousel slide" id="myCarousel-whalers" data-interval="false">
-		<span class="faux-x">X</span>
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel-whalers" data-slide-to="0" class="customCarouselIndicator active"></li>
-            <li data-target="#myCarousel-whalers" data-slide-to="1" class="customCarouselIndicator"></li>
-            <li data-target="#myCarousel-whalers" data-slide-to="2" class="customCarouselIndicator"></li>
-            <li data-target="#myCarousel-whalers" data-slide-to="3" class="customCarouselIndicator"></li>
-            <li data-target="#myCarousel-whalers" data-slide-to="4" class="customCarouselIndicator"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img src="assets/images/carousel/whalers-home.jpg" alt="North Haven Whaler Rentals">
-            </div>
-            <div class="item">
-                <img src="assets/images/carousel/whalers-multiple.jpg" alt="North Haven Whaler Rentals">
-            </div>
-            <div class="item">
-                <img src="assets/images/carousel/whalers-rentals.jpg" alt="North Haven Whaler Rentals">
-            </div>
-            <div class="item">
-                <img src="assets/images/carousel/whalers-policies.jpg" alt="North Haven Whaler Rentals">
-            </div>
-            <div class="item">
-                <img src="assets/images/carousel/whalers-contact.jpg" alt="North Haven Whaler Rentals">
-            </div>
-            <div class="carousel-caption">
-                <h3>North Haven Whaler Rentals</h3>
-                <p>Kate Yoder and her family were trying to get their fledgling whaler rental operation off the ground and approached Bartlett and me about helping in the process. We created this Squarespace site that utilizes a third-party rental system. <small><em>(Squarespace, CSS, HTML)</em></small></p>
-                <a href="https://www.northhavenwhalers.com/" target="_blank">Visit the site <i class="fa fa-arrow-right"></i></a>
-            </div>
-        </div>
-    	<a class="left carousel-control" href="#myCarousel-whalers" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel-whalers" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
+	    <!--WHALERS-->
+	    <div class="carousel-showcase carousel slide" id="myCarousel-whalers" data-interval="false">
+			<span class="faux-x">X</span>
+	        <ol class="carousel-indicators">
+	            <li data-target="#myCarousel-whalers" data-slide-to="0" class="customCarouselIndicator active"></li>
+	            <li data-target="#myCarousel-whalers" data-slide-to="1" class="customCarouselIndicator"></li>
+	            <li data-target="#myCarousel-whalers" data-slide-to="2" class="customCarouselIndicator"></li>
+	            <li data-target="#myCarousel-whalers" data-slide-to="3" class="customCarouselIndicator"></li>
+	            <li data-target="#myCarousel-whalers" data-slide-to="4" class="customCarouselIndicator"></li>
+	        </ol>
+	        <div class="carousel-inner" role="listbox">
+	            <div class="item active">
+	                <img src="assets/images/carousel/whalers-home.jpg" alt="North Haven Whaler Rentals">
+	            </div>
+	            <div class="item">
+	                <img src="assets/images/carousel/whalers-multiple.jpg" alt="North Haven Whaler Rentals">
+	            </div>
+	            <div class="item">
+	                <img src="assets/images/carousel/whalers-rentals.jpg" alt="North Haven Whaler Rentals">
+	            </div>
+	            <div class="item">
+	                <img src="assets/images/carousel/whalers-policies.jpg" alt="North Haven Whaler Rentals">
+	            </div>
+	            <div class="item">
+	                <img src="assets/images/carousel/whalers-contact.jpg" alt="North Haven Whaler Rentals">
+	            </div>
+	            <div class="carousel-caption">
+	                <h3>North Haven Whaler Rentals</h3>
+	                <p>Kate Yoder and her family were trying to get their fledgling whaler rental operation off the ground and approached Bartlett and me about helping in the process. We created this Squarespace site that utilizes a third-party rental system. <small><em>(Squarespace, CSS, HTML)</em></small></p>
+	                <a href="https://www.northhavenwhalers.com/" target="_blank">Visit the site <i class="fa fa-arrow-right"></i></a>
+	            </div>
+	        </div>
+	    	<a class="left carousel-control" href="#myCarousel-whalers" role="button" data-slide="prev">
+	            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	            <span class="sr-only">Previous</span>
+	        </a>
+	        <a class="right carousel-control" href="#myCarousel-whalers" role="button" data-slide="next">
+	            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	            <span class="sr-only">Next</span>
+	        </a>
+	    </div>
 
-    <!--BILLY SIMS-->
-    <div class="carousel-showcase carousel slide" id="myCarousel-sims" data-interval="false">
-		<span class="faux-x">X</span>
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel-sims" data-slide-to="0" class="customCarouselIndicator active"></li>
-            <li data-target="#myCarousel-sims" data-slide-to="1" class="customCarouselIndicator"></li>
-            <li data-target="#myCarousel-sims" data-slide-to="2" class="customCarouselIndicator"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img src="assets/images/carousel/billysims-home.jpg" alt="China Food Hub">
-            </div>
-            <div class="item">
-                <img src="assets/images/carousel/billysims-multiple.jpg" alt="China Food Hub">
-            </div>
-            <div class="item">
-                <img src="assets/images/carousel/billysims-about.jpg" alt="China Food Hub">
-            </div>
-            <div class="carousel-caption">
-                <h3>Billy Sims China Food Group</h3>
-                <p>Former Heisman Trophy winner Sims' startup got a boost with this Bartlett-designed WP site. <small><em>(Wordpress, CSS)</em></small></p>
-                <a href="http://www.chinafoodhub.com/" target="_blank">Visit the site <i class="fa fa-arrow-right"></i></a>
-            </div>
-        </div>
-    	<a class="left carousel-control" href="#myCarousel-sims" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel-sims" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
+	    <!--BILLY SIMS-->
+	    <div class="carousel-showcase carousel slide" id="myCarousel-sims" data-interval="false">
+			<span class="faux-x">X</span>
+	        <ol class="carousel-indicators">
+	            <li data-target="#myCarousel-sims" data-slide-to="0" class="customCarouselIndicator active"></li>
+	            <li data-target="#myCarousel-sims" data-slide-to="1" class="customCarouselIndicator"></li>
+	            <li data-target="#myCarousel-sims" data-slide-to="2" class="customCarouselIndicator"></li>
+	        </ol>
+	        <div class="carousel-inner" role="listbox">
+	            <div class="item active">
+	                <img src="assets/images/carousel/billysims-home.jpg" alt="China Food Hub">
+	            </div>
+	            <div class="item">
+	                <img src="assets/images/carousel/billysims-multiple.jpg" alt="China Food Hub">
+	            </div>
+	            <div class="item">
+	                <img src="assets/images/carousel/billysims-about.jpg" alt="China Food Hub">
+	            </div>
+	            <div class="carousel-caption">
+	                <h3>Billy Sims China Food Group</h3>
+	                <p>Former Heisman Trophy winner Sims' startup got a boost with this Bartlett-designed WP site. <small><em>(Wordpress, CSS)</em></small></p>
+	                <a href="http://www.chinafoodhub.com/" target="_blank">Visit the site <i class="fa fa-arrow-right"></i></a>
+	            </div>
+	        </div>
+	    	<a class="left carousel-control" href="#myCarousel-sims" role="button" data-slide="prev">
+	            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	            <span class="sr-only">Previous</span>
+	        </a>
+	        <a class="right carousel-control" href="#myCarousel-sims" role="button" data-slide="next">
+	            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	            <span class="sr-only">Next</span>
+	        </a>
+	    </div>
 
-    <!--CBWD-->
-    <div class="carousel-showcase carousel slide" id="myCarousel-cbwd" data-interval="false">
-		<span class="faux-x">X</span>
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel-cbwd" data-slide-to="0" class="customCarouselIndicator active"></li>
-            <li data-target="#myCarousel-cbwd" data-slide-to="1" class="customCarouselIndicator"></li>
-            <li data-target="#myCarousel-cbwd" data-slide-to="2" class="customCarouselIndicator"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img src="assets/images/carousel/cbwd-home.jpg" alt="CBWD">
-            </div>
-            <div class="item">
-                <img src="assets/images/carousel/cbwd-multiple.jpg" alt="CBWD">
-            </div>
-            <div class="item">
-                <img src="assets/images/carousel/cbwd-carousel.jpg" alt="CBWD">
-            </div>
-            <div class="carousel-caption">
-                <h3>CBWD</h3>
-                <p>My professional portfolio is hard-coded using specialized hover effects and light PHP. <small><em>(HTML, CSS, jQuery, PHP)</em></small></p>
-            </div>
-        </div>
-    	<a class="left carousel-control" href="#myCarousel-cbwd" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel-cbwd" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
+	    <!--CBWD-->
+	    <div class="carousel-showcase carousel slide" id="myCarousel-cbwd" data-interval="false">
+			<span class="faux-x">X</span>
+	        <ol class="carousel-indicators">
+	            <li data-target="#myCarousel-cbwd" data-slide-to="0" class="customCarouselIndicator active"></li>
+	            <li data-target="#myCarousel-cbwd" data-slide-to="1" class="customCarouselIndicator"></li>
+	            <li data-target="#myCarousel-cbwd" data-slide-to="2" class="customCarouselIndicator"></li>
+	        </ol>
+	        <div class="carousel-inner" role="listbox">
+	            <div class="item active">
+	                <img src="assets/images/carousel/cbwd-home.jpg" alt="CBWD">
+	            </div>
+	            <div class="item">
+	                <img src="assets/images/carousel/cbwd-multiple.jpg" alt="CBWD">
+	            </div>
+	            <div class="item">
+	                <img src="assets/images/carousel/cbwd-carousel.jpg" alt="CBWD">
+	            </div>
+	            <div class="carousel-caption">
+	                <h3>CBWD</h3>
+	                <p>My professional portfolio is hard-coded using specialized hover effects and light PHP. <small><em>(HTML, CSS, jQuery, PHP)</em></small></p>
+	            </div>
+	        </div>
+	    	<a class="left carousel-control" href="#myCarousel-cbwd" role="button" data-slide="prev">
+	            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	            <span class="sr-only">Previous</span>
+	        </a>
+	        <a class="right carousel-control" href="#myCarousel-cbwd" role="button" data-slide="next">
+	            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	            <span class="sr-only">Next</span>
+	        </a>
+	    </div>
 
-    <!--ADVENTURELAND-->
-    <div class="carousel-showcase carousel slide" id="myCarousel-adventureland" data-interval="false">
-		<span class="faux-x">X</span>
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel-adventureland" data-slide-to="0" class="customCarouselIndicator active"></li>
-            <li data-target="#myCarousel-adventureland" data-slide-to="1" class="customCarouselIndicator"></li>
-            <li data-target="#myCarousel-adventureland" data-slide-to="2" class="customCarouselIndicator"></li>
-            <li data-target="#myCarousel-adventureland" data-slide-to="3" class="customCarouselIndicator"></li>
-            <li data-target="#myCarousel-adventureland" data-slide-to="4" class="customCarouselIndicator"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img src="assets/images/carousel/adventureland-home.jpg" alt="Adventureland">
-            </div>
-            <div class="item">
-                <img src="assets/images/carousel/adventureland-multiple.jpg" alt="Adventureland">
-            </div>
-            <div class="item">
-                <img src="assets/images/carousel/adventureland-photos-hover.jpg" alt="Adventureland">
-            </div>
-            <div class="item">
-                <img src="assets/images/carousel/adventureland-stories.jpg" alt="Adventureland">
-            </div>
-            <div class="item">
-                <img src="assets/images/carousel/adventureland-gallery.jpg" alt="Adventureland">
-            </div>
-            <div class="carousel-caption">
-                <h3>Adventureland</h3>
-                <p>This travel blog site is hard-coded and based upon a Squarespace theme. Fixed-positioning parallax effects and hover transitions give it a dynamic feel. <small><em>(HTML, CSS, jQuery)</em></small></p>
-                <a href="http://www.adventureland.charliebisbee.com/index.html" target="_blank">Visit the site <i class="fa fa-arrow-right"></i></a>
-            </div>
-        </div>
-    	<a class="left carousel-control" href="#myCarousel-adventureland" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel-adventureland" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div></div>
+	    <!--ADVENTURELAND-->
+	    <div class="carousel-showcase carousel slide" id="myCarousel-adventureland" data-interval="false">
+			<span class="faux-x">X</span>
+	        <ol class="carousel-indicators">
+	            <li data-target="#myCarousel-adventureland" data-slide-to="0" class="customCarouselIndicator active"></li>
+	            <li data-target="#myCarousel-adventureland" data-slide-to="1" class="customCarouselIndicator"></li>
+	            <li data-target="#myCarousel-adventureland" data-slide-to="2" class="customCarouselIndicator"></li>
+	            <li data-target="#myCarousel-adventureland" data-slide-to="3" class="customCarouselIndicator"></li>
+	            <li data-target="#myCarousel-adventureland" data-slide-to="4" class="customCarouselIndicator"></li>
+	        </ol>
+	        <div class="carousel-inner" role="listbox">
+	            <div class="item active">
+	                <img src="assets/images/carousel/adventureland-home.jpg" alt="Adventureland">
+	            </div>
+	            <div class="item">
+	                <img src="assets/images/carousel/adventureland-multiple.jpg" alt="Adventureland">
+	            </div>
+	            <div class="item">
+	                <img src="assets/images/carousel/adventureland-photos-hover.jpg" alt="Adventureland">
+	            </div>
+	            <div class="item">
+	                <img src="assets/images/carousel/adventureland-stories.jpg" alt="Adventureland">
+	            </div>
+	            <div class="item">
+	                <img src="assets/images/carousel/adventureland-gallery.jpg" alt="Adventureland">
+	            </div>
+	            <div class="carousel-caption">
+	                <h3>Adventureland</h3>
+	                <p>This travel blog site is hard-coded and based upon a Squarespace theme. Fixed-positioning parallax effects and hover transitions give it a dynamic feel. <small><em>(HTML, CSS, jQuery)</em></small></p>
+	                <a href="http://www.adventureland.charliebisbee.com/index.html" target="_blank">Visit the site <i class="fa fa-arrow-right"></i></a>
+	            </div>
+	        </div>
+	    	<a class="left carousel-control" href="#myCarousel-adventureland" role="button" data-slide="prev">
+	            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	            <span class="sr-only">Previous</span>
+	        </a>
+	        <a class="right carousel-control" href="#myCarousel-adventureland" role="button" data-slide="next">
+	            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	            <span class="sr-only">Next</span>
+	        </a>
+	    </div>
+	</div>
 </body>
 </html>
